@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"
+    >
+
+    <div class="menu">
+        <h:form id="menicko">
+
+            <p:menu style="width:180px" type="tiered" >
+                <p:submenu label="User" >
+                    <p:menuitem   value="Add user" action="adduserAdmin" update="messages" ajax="false"/> 
+                    <p:menuitem value="Check students" action="checkstudentAdmin" update="messages" ajax="false"/>
+                    <p:menuitem value="Check teachers" action="checkkantoriAdmin" update="messages" ajax="false"/>
+                </p:submenu>
+                <p:submenu label="Parallel" >
+                    <p:menuitem value="Add Parallel" action="addparallelAdmin" update="messages" ajax="false"/>
+                </p:submenu>
+                <p:submenu label="Subject" >
+                    <p:menuitem value="Add subject" action="addsubjectAdmin" update="messages" ajax="false"/> 
+                    <p:menuitem value="Check all subject" action="#{treeSubjectBean.loadTreeSubject()}" update="messages" ajax="false"/> 
+                </p:submenu>
+
+ 
+            </p:menu>
+
+           
+        </h:form>
+    </div>
+</ui:composition>
+

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"
+
+    xmlns:f="http://java.sun.com/jsf/core">
+    <div class="content2">
+<h:form id="messageForm" style="width: 800px">
+        <p:messages  id="msgs" showDetail="true"/>   
+        </h:form>
+
+        <h:form enctype="multipart/form-data" prependId="false">  
+            <h:panelGrid id="taskConfimGrid" columns="2" cellpadding="4" title="Original Task">  
+                <h:outputText value="Label"/>
+                <h:outputText value="#{studentTask.selectedTask.nazev}" />
+                <h:outputText value="Description"/>
+                <h:outputText value="#{studentTask.selectedTask.popis}" />
+                <h:outputText value="Deadline"/>
+                <h:outputText value="#{studentTask.selectedTask.deadline}" /> 
+                <h:outputText value="Datum zadani"/>
+                <h:outputText value="#{studentTask.selectedTask.datumZadani}" />
+                <h:outputText value="File with task"/>
+                <p:fileUpload fileUploadListener="#{studentTask.handleFileUpload}"   
+                              allowTypes="*.pdf" description="PDF"/>  
+                <h:outputText value=""/>
+            </h:panelGrid> 
+        </h:form>
+        
+        <h:form prependId="false">  
+            <h:panelGrid columns="2" cellpadding="4" title="Original Task">  
+               <h:outputText value="Soubor se zadanim" />
+                      <p:commandButton value="Download" ajax="false">
+                          <p:fileDownload id="zadani" value="#{studentTask.downloadZadani()}"/>
+                            </p:commandButton>
+            </h:panelGrid> 
+        </h:form>
+        
+        
+        
+        <h:form>
+            <h:panelGrid id="taskConfimGrid" columns="2" cellpadding="4" title="Task">  
+                <h:outputText value="Nahrane soubory" />
+                <p:commandButton value="Zobraz" onclick="dlg1.show();" update="dialogFiles"/> 
+                <p:ajaxStatus style="width:16px;height:16px;">  
+                    <f:facet name="start">  
+                        <h:graphicImage value="../design/ajaxloading.gif" />  
+                    </f:facet>  
+                    <f:facet name="complete">  
+                        <h:outputText value="" />  
+                    </f:facet>  
+                </p:ajaxStatus>
+                <p:dialog width="600" height="400" header="Nahrane soubory" widgetVar="dlg1">
+                    <p:dataTable var="taskFile" value="#{studentTask.selectedTask.m_ukolSoubor}" id="dialogFiles" >  
+                        <p:column>  
+                            <f:facet name="header">  
+                                Nazev
+                            </f:facet>  
+                            <h:outputText value="#{taskFile.file.path}" />  
+                        </p:column>
+                        <p:column headerText="Popis" style="width:400px">  
+                            <p:cellEditor>  
+                                <f:facet name="output">  
+                                    <h:outputText value="#{taskFile.description}" />  
+                                </f:facet>  
+                                <f:facet name="input">  
+                                    <p:inputTextarea value="#{taskFile.description}" style="width:100%"/>  
+                                </f:facet>  
+                            </p:cellEditor>  
+                        </p:column>  
+                        <p:column headerText="DownloadFile">
+                            <p:commandButton value="Download" ajax="false">
+                                <p:fileDownload id="koko" value="#{studentTask.download(taskFile)}"/>
+                            </p:commandButton>
+                        </p:column>
+                        <p:column headerText="Options">  
+                            <p:rowEditor />  
+                        </p:column>  
+                    </p:dataTable>
+                </p:dialog>
+                
+                <p:commandButton action="#{studentTask.sendTask}" update="messageForm:msgs" value="Odevzdej ukol" ajax="false"  />
+            </h:panelGrid>
+            
+        </h:form>
+    </div>
+
+</ui:composition>

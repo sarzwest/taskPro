@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"
+    >
+
+    <div class="content2">
+
+        <h:form>   
+            <table>
+                <tr>
+                    <th> <label for="taskName">Task name</label></th>
+                    <td><p:inputText id="taskName" value="#{taskBean.taskName}"></p:inputText> <br/></td>
+                </tr>
+                <tr>
+                    <th><label for="taskDescr">Task description</label></th>
+                    <td> <p:inputText id="taskDescr" value="#{taskBean.taskDescription}"></p:inputText></td> 
+                </tr>
+                <tr>
+
+                    <th><label for="taskDdl">Task deadline</label></th>
+                    <td><p:inputText id="taskDdl" value="#{taskBean.deadline}"></p:inputText> </td>
+                </tr>
+                <tr>
+                    <th colspan="2"> 
+                        <p:commandButton value="Create task" action="#{taskBean.createTask()}" ajax="false"></p:commandButton>
+                    </th>
+                </tr>
+            </table>
+
+
+        </h:form>
+    </div>
+
+</ui:composition>

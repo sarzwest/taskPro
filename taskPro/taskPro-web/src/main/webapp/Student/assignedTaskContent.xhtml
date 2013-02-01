@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"  
+    xmlns:f="http://java.sun.com/jsf/core">
+    <div class="content4">
+        <h:form>
+            <p:dataTable 
+                style="width: 600px"
+                var="task" value="#{studentTask.setOfTasks}" paginator="true" rows="10"  
+                         selection="#{studentTask.selectedTask}" selectionMode="single"  
+                         
+                       
+                 onRowSelectUpdate="display growl displayOrig displayTeacher"  
+                 onRowSelectComplete="taskDialog.show()"   
+                 onRowUnselectUpdate="growl" styleClass="facesFont"
+                 
+                 >  
+                           
+  
+        <f:facet name="header">                    
+                </f:facet>  
+                <p:column headerText="zadani">  
+                    <h:outputText value="#{task.nazev}" />  
+                </p:column>  
+                <p:column>  
+                    <f:facet name="header">  
+                        Popis
+                    </f:facet>  
+                    <h:outputText value="#{task.popis}" /> 
+                </p:column>
+                <p:column>  
+                    <f:facet name="header">  
+                        Datum zadani
+                    </f:facet>  
+                    <h:outputText value="#{task.datumZadani}" >
+                         <f:convertDateTime  ></f:convertDateTime>
+                    </h:outputText>
+                </p:column>
+                <p:column>  
+                    <f:facet name="header">  
+                        Deadline
+                    </f:facet>  
+                    <h:outputText value="#{task.deadline}" >
+                         <f:convertDateTime  ></f:convertDateTime>
+                    </h:outputText>
+                </p:column>
+                <p:column>  
+                    <f:facet name="header">  
+                        Stav
+                    </f:facet>  
+                    <h:outputText value="#{task.stav}" /> 
+                </p:column>
+                <p:column>  
+                    <f:facet name="header">  
+                        Teacher
+                    </f:facet>  
+                    <h:outputText value="#{task.zadani.kantor.jmeno} #{task.zadani.kantor.prijmeni}" /> 
+                </p:column>
+    </p:dataTable>          
+            <p:dialog header="Task Detail" widgetVar="taskDialog" resizable="false"  
+                      width="900" height="600"  showEffect="explode" hideEffect="explode">  
+                <p:fieldset legend="Assigned Task" toggleable="true" toggleSpeed="500" > 
+                <h:panelGrid id="display" columns="2" cellpadding="4" title="Assigned Task">  
+            
+                    <h:outputText value="Label"/>
+                    <h:outputText value="#{studentTask.selectedTask.nazev}" />
+                      <h:outputText value="Description"/>
+                    <h:outputText value="#{studentTask.selectedTask.popis}" />
+                      <h:outputText value="Deadline"/>
+                    <h:outputText value="#{studentTask.selectedTask.deadline}" >
+                         <f:convertDateTime  ></f:convertDateTime>
+                    </h:outputText>
+                      <h:outputText value="Task created:"/>
+                    <h:outputText value="#{studentTask.selectedTask.datumZadani}" >
+                         <f:convertDateTime  ></f:convertDateTime>
+                    </h:outputText>
+                    <h:outputText value="Teacher:"/>
+                       <p:fieldset legend="Teacher in task" toggleable="true" toggleSpeed="100" > 
+                           <h:panelGrid id="displayTeacher" columns="2" cellpadding="4" >  
+                               <h:outputText value="Name and Surname:" />
+                            <h:outputText value="#{studentTask.selectedTask.zadani.kantor.jmeno} #{studentTask.selectedTask.zadani.kantor.prijmeni}" />
+                            <h:outputText value="Email:" />
+                            <h:outputText value="#{studentTask.selectedTask.zadani.kantor.mail}" />
+                           </h:panelGrid>
+                       </p:fieldset>   
+        </h:panelGrid>  
+                </p:fieldset>
+                 <p:fieldset legend="Original Task" toggleable="true" toggleSpeed="200" > 
+                 <h:panelGrid id="displayOrig" columns="2" cellpadding="4" title="Original Task">  
+                     <h:outputText value="Label"/>
+                     <h:outputText value="#{studentTask.selectedTask.zadani.nazev}" />
+                     <h:outputText value="Description"/>
+                     <h:outputText value="#{studentTask.selectedTask.zadani.popis}" />
+                     <h:outputText value="Deadline"/>
+                     <h:outputText value="#{studentTask.selectedTask.zadani.deadline}" >
+                          <f:convertDateTime  ></f:convertDateTime>
+                     </h:outputText>
+                     <h:outputText value="Soubor se zadanim" />
+                      <p:commandButton value="Download" ajax="false">
+                          <p:fileDownload id="koko" value="#{studentTask.downloadZadani()}"/>
+                            </p:commandButton>
+        </h:panelGrid>  
+                 </p:fieldset>
+                <h:form>
+                    <p:commandButton value="Odevzdej" action="#{studentTask.sendNewTask()}" 
+                                     ajax="false"></p:commandButton>
+                </h:form>
+    </p:dialog>    
+        </h:form>
+    </div>
+</ui:composition>

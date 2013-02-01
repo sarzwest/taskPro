@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"  
+    xmlns:f="http://java.sun.com/jsf/core">
+    <div class="content2">
+        <h:form id="subject">  
+                <p:dataTable  style="width: 600px" var="sub" value="#{assignTask.kantorSubjects}"  
+                         selection="#{assignTask.kantrosSubjectToFilter}" selectionMode="multiple">  
+                <f:facet name="header">  
+                    Choose subject 
+                </f:facet>  
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Kod predmetu" />  
+                    </f:facet>  
+                    <h:outputText value="#{sub.kod}" />  
+                </p:column>  
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Popis" />  
+                    </f:facet>  
+                    <h:outputText value="#{sub.popisek}" />  
+                </p:column>  
+                <f:facet name="footer">
+                </f:facet>  
+            </p:dataTable>  
+            <p:commandButton value="Choose"  update="paralelkyForm,studentsForm" ajax="true" action="#{assignTask.filterBySubject()}"/>  
+        </h:form>
+        
+        <h:form id="paralelkyForm" >
+            <p:dataTable 
+                style="width: 600px"
+                widgetVar="paralelkyFiltr" var="paraleky" value="#{assignTask.filtredParalelBySubject}"  
+                         selection="#{assignTask.paralelChosen}" selectionMode="multiple">  
+
+                <f:facet name="header">  
+                    Choose paralelas
+                </f:facet>  
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Kod paralelky" />  
+                    </f:facet>  
+                    <h:outputText value="#{paraleky.kod}" />  
+                </p:column>  
+                <f:facet name="footer">  
+                    <p:commandButton value="Choose"   
+                                     update="studentsForm" ajax="true" action="#{assignTask.filterByParalel()}"/>  
+                </f:facet>  
+            </p:dataTable>  
+        </h:form>  
+        <h:form id="studentsForm">  
+            <p:dataTable 
+                style="width: 600px"
+                var="student" value="#{assignTask.studentsChosen}"  
+                         selection="#{assignTask.currChosen}" selectionMode="multiple">  
+                <f:facet name="header">  
+                    Choose students
+                </f:facet>  
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Jmeno" />  
+                    </f:facet>  
+                    <h:outputText value="#{student.jmeno}" />  
+                </p:column>  
+
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Prijmeni" />  
+                    </f:facet>  
+                    <h:outputText value="#{student.prijmeni}" />  
+                </p:column> 
+                <f:facet name="footer">  
+                </f:facet>  
+            </p:dataTable>  
+            <p:commandButton value="Choose" action="#{assignTask.filterByStudent()}" update="studentsForm"/>  
+        </h:form>
+        <h:form id="taskForm">  
+            <p:dataTable 
+                style="width: 600px"
+                var="task" value="#{assignTask.kantorsTask}"  
+                         selection="#{assignTask.taskChosen}" selectionMode="multiple">  
+                <f:facet name="header">  
+                    Chose tasks
+                </f:facet>  
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Nazev zadani" />  
+                    </f:facet>  
+                    <h:outputText value="#{task.nazev}" />  
+                </p:column>  
+
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Popis" />  
+                    </f:facet>  
+                    <h:outputText value="#{task.popis}" />  
+                </p:column> 
+                <f:facet name="footer">  
+                    <p:commandButton value="Summarization"  action="#{assignTask.assigenTask()}" ajax="false"
+                                      /> 
+                </f:facet>  
+            </p:dataTable>  
+
+        </h:form>
+    </div>
+</ui:composition>
