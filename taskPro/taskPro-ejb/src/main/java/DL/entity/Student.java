@@ -33,7 +33,7 @@ import javax.persistence.Table;
 @NamedQueries({
     //    @NamedQuery(name = "Uzivatel.findByLogin", query = "SELECT u FROM Uzivatel u WHERE u.login = :login"),
     @NamedQuery(name = "Student.all", query = "SELECT s FROM Student s"),
-    @NamedQuery(name="Student.findByKantor", query="SELECT s FROM Student s JOIN s.paralelkas p WHERE p.kantors = :kantor")
+//    @NamedQuery(name="Student.findByKantor", query="SELECT s FROM Student s JOIN s.paralelkas p WHERE p.kantors = :kantor")
 })
 public class Student extends Uzivatel implements Serializable {
 

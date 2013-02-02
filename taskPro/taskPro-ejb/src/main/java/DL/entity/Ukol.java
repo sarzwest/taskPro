@@ -68,7 +68,7 @@ public class Ukol implements Serializable {
     private Student student;
     @ManyToOne
     private Skupina skupina;
-    @OneToMany(mappedBy = "ukol", cascade= CascadeType.ALL, fetch= FetchType.LAZY)
+//    @OneToMany(mappedBy = "ukol", cascade= CascadeType.ALL, fetch= FetchType.LAZY)
     private List<UkolSoubor> m_ukolSoubor;
 
     /**
