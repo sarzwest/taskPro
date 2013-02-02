@@ -117,6 +117,7 @@ public class UzivatelB implements IUzivatelB {
            workbook.close();
             return status;
         }
+//    	return null;
         
     }
     /**
