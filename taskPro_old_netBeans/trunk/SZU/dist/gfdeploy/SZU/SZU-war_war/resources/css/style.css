@@ -1,0 +1,193 @@
+/* 
+    Document   : style
+    Created on : 9.10.2011, 1:01:40
+    Author     : Lurtz
+    Description:
+        Purpose of the stylesheet follows.
+    Licence     : GNU GPL V3    
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    min-width: 1020px;
+
+}
+
+.prihlaseni{
+    background-image: url(../images/LoginBig.png);
+    width: 600px;
+    height: 466px;
+    text-align: left;
+    margin: auto;
+    margin-top: 75px;
+   
+   /* border-width: 3px;
+    border-style: double;  */
+}
+
+.login{
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+
+ 
+}
+
+
+.buttonCenter{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.loginLabel{
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+
+
+.nazev{
+    text-align: center;
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 13pt;
+    font-weight: bold;
+    padding: 15px;
+  /*  border-width: 3px;
+    border-style: double; */ 
+}
+
+.topBar{
+    background-color:#ed1c24;
+    height: 41px;
+    text-align:right;
+    color: white;
+    min-width: 1000px;
+
+    /* min-width: 560px;
+     max-width: 600px;
+     height: 41px;
+     background-color: #cc0000;
+     color: white;
+     position: fixed;
+     top: 0;
+     right: 0;*/
+}
+
+.topBarLogo{
+    margin-left: 6%;
+    text-align: left;
+}
+.topBar a{
+    color:#b4dfea;
+    text-decoration: none;
+}
+.topBar a:hover{
+    color:white;
+}
+
+.topBar span{
+    padding: 0 20px;
+}
+.topBarPad{
+     padding-top: 10px;
+     padding-left: 230px;
+}
+.menu{
+    float: left;
+    padding-left: 20px;
+    padding-top: 100px;
+    text-align: left;
+    width: 221px;
+}
+.menu button{
+    margin-bottom: 10px;
+    width: 200px;
+    
+}
+.wrapper{
+      
+}
+.content{
+    width:300px;
+    padding-top: 200px;
+    text-align: center;
+   
+}
+
+
+.content2{
+    float: left;
+    padding-top: 150px;
+    padding-left: 200px;
+    font-size:12px;  
+}
+
+.content3{
+    float: left;
+    padding-top: 150px;
+    padding-left: 50px;
+    max-width: 779px;
+    font-size:12px;
+}
+
+.content4{
+    float: left;
+    padding-top: 150px;
+    padding-left: 0px;
+    max-width: 779px;
+    font-size:12px;
+}
+
+.errAddUserOK{
+    color: greenyellow;
+    font-size: large;
+    font-weight: bold; 
+}
+
+.errAddUser{
+    color: red;
+    font-size: large;
+    font-weight: bold; 
+}
+
+.facesFont{
+    font-size: 10px;
+    
+}
+.errAddOK{
+    color: greenyellow;
+    font-size: large;
+    font-weight: bold; 
+}
+
+.errAdd{
+    color: red;
+    font-size: large;
+    font-weight: bold; 
+}
+
+                /*Set border (this is specific to black-tie theme)*/
+                .ui-widget-content, .wijmo-wijmenu .ui-widget-content {
+                    border: 1px solid #CCCCCC;
+                }
+                /*Set font to a reasonable size*/
+                body {
+                    font-size: 14px;
+                }

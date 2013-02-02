@@ -1,0 +1,4 @@
+browser-choice=1
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="1">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n<external location\="/." name\="BrowserSim"/>\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=file\:///home/papa/Dokumenty/NetBeansProjects/taskPro_group/XMLExamples/readme.html|*|file\:/home/papa/Dokumenty/NetBeansProjects/taskPro_group/XMLExamples/readme.html|*|http\://localhost\:8080/taskPro-web/|*|http\://localhost\:8080/ticket-monster/index.jsf|*|http\://localhost\:8080/ticket-monster/|*|http\://localhost\:8080/taskPro-war/|*|

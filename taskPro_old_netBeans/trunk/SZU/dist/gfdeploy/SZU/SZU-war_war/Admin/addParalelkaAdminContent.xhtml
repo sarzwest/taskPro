@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"    
+    xmlns:f="http://java.sun.com/jsf/core">
+
+    <div class="content2">
+
+        <h:form>   
+            <table>
+                <tr>
+                    <th colspan="2"><div class="#{paralelkaBean.cssErr}">#{paralelkaBean.err}</div></th>
+                </tr>
+                <tr>
+                    <th> <label for="paralelkaCode">Parallel code: </label></th>
+                    <td><p:inputText id="paralelkaCode" value="#{paralelkaBean.kod}"></p:inputText> <br/></td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <h2>Výběr předmetu</h2>
+                    </th>
+                </tr>
+
+
+                <tr>
+                    <th colspan="2">
+                        <p:dataTable 
+                            style="width: 400px"
+                            var="predmet" value="#{paralelkaBean.predmety}" paginator="false"   
+                                     selection="#{paralelkaBean.vybranyPredmet}">  
+
+                            <f:facet name="header">  
+                                Subject  
+                            </f:facet>  
+
+                            <p:column selectionMode="single" />  
+
+                            <p:column headerText="Code" >  
+                                <h:outputText value="#{predmet.kod}" />  
+                            </p:column>  
+
+                            <p:column headerText="Description">  
+                                <h:outputText value="#{predmet.popisek}" />  
+                            </p:column>  
+
+                        </p:dataTable>  
+                    </th>
+                </tr>
+
+
+                <tr>
+                    <th colspan="2">
+                        <h2>Výběr studentů do paralelky</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <p:dataTable var="studenti" value="#{paralelkaBean.studenti}" paginator="false"  
+                                     selection="#{paralelkaBean.vybraniStudenti}">  
+
+                            <f:facet name="header">  
+                                Studenti 
+                            </f:facet>  
+
+                            <p:column selectionMode="multiple" />  
+
+                            <p:column headerText="Login">  
+                                <h:outputText value="#{studenti.login}" />  
+                            </p:column>  
+
+                            <p:column headerText="Name">  
+                                <h:outputText value="#{studenti.jmeno}" />  
+                            </p:column>  
+
+                            <p:column headerText="Surname">  
+                                <h:outputText value="#{studenti.prijmeni}" />  
+                            </p:column>  
+
+                            <p:column headerText="Email">  
+                                <h:outputText value="#{studenti.mail}" />  
+                            </p:column>  
+
+                        </p:dataTable> 
+
+                    </th>
+                </tr>
+               
+                <tr>
+                    <th colspan="2">
+                        <h2>Výběr Kantorů do paralelky</h2>
+                    </th>
+                </tr>
+                                <tr>
+                    <th colspan="2">
+                        <p:dataTable var="kantori" value="#{paralelkaBean.kantori}" paginator="false"  
+                                     selection="#{paralelkaBean.vybraniKantori}">  
+
+                            <f:facet name="header">  
+                                Kantori 
+                            </f:facet>  
+
+                            <p:column selectionMode="multiple" />  
+
+                            <p:column headerText="Login">  
+                                <h:outputText value="#{kantori.login}" />  
+                            </p:column>  
+
+                            <p:column headerText="Name">  
+                                <h:outputText value="#{kantori.jmeno}" />  
+                            </p:column>  
+
+                            <p:column headerText="Surname">  
+                                <h:outputText value="#{kantori.prijmeni}" />  
+                            </p:column>  
+
+                            <p:column headerText="Email">  
+                                <h:outputText value="#{kantori.mail}" />  
+                            </p:column>  
+                        </p:dataTable> 
+
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> 
+                        <p:commandButton value="Add Parallel" action="#{paralelkaBean.pridejParalelku()}" ajax="false"></p:commandButton>
+                    </th>
+                </tr>
+            </table>
+
+
+        </h:form>
+    </div>
+
+</ui:composition>

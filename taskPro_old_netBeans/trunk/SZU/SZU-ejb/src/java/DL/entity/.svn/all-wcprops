@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/539/trunk/SZU/SZU-ejb/src/java/DL/entity
+END
+UkolSoubor.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/471/trunk/SZU/SZU-ejb/src/java/DL/entity/UkolSoubor.java
+END
+Zadani.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/390/trunk/SZU/SZU-ejb/src/java/DL/entity/Zadani.java
+END
+Admin.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/390/trunk/SZU/SZU-ejb/src/java/DL/entity/Admin.java
+END
+Kantor.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/539/trunk/SZU/SZU-ejb/src/java/DL/entity/Kantor.java
+END
+Uzivatel.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/390/trunk/SZU/SZU-ejb/src/java/DL/entity/Uzivatel.java
+END
+Predmet.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/530/trunk/SZU/SZU-ejb/src/java/DL/entity/Predmet.java
+END
+Student.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/530/trunk/SZU/SZU-ejb/src/java/DL/entity/Student.java
+END
+Skupina.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/390/trunk/SZU/SZU-ejb/src/java/DL/entity/Skupina.java
+END
+Paralelka.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/539/trunk/SZU/SZU-ejb/src/java/DL/entity/Paralelka.java
+END
+Ukol.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/538/trunk/SZU/SZU-ejb/src/java/DL/entity/Ukol.java
+END
+test.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/345/trunk/SZU/SZU-ejb/src/java/DL/entity/test.java
+END

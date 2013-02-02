@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/306/trunk/SZU/SZU-war/lib
+END
+jsf-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/518/trunk/SZU/SZU-war/lib/jsf-api.jar
+END
+commons-fileupload-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/518/trunk/SZU/SZU-war/lib/commons-fileupload-1.2.2.jar
+END
+commons-io-2.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/518/trunk/SZU/SZU-war/lib/commons-io-2.0.1.jar
+END
+primefaces-2.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/518/trunk/SZU/SZU-war/lib/primefaces-2.2.1.jar
+END

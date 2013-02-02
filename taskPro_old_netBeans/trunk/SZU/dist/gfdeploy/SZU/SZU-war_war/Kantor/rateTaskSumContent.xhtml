@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"  
+    xmlns:f="http://java.sun.com/jsf/core">
+    <div class="content2">
+        <h:form id="messageForm" style="width: 800px">
+            <p:messages  id="msgs" showDetail="true"/>   
+        </h:form>
+
+        <h:form id="studentsForm">  
+            <p:dataTable style="width: 800px" var="student" value="#{assignTask.studentsChosen}"  
+                         selection="#{assignTask.currChosen}" selectionMode="multiple">  
+                <f:facet name="header">  
+                    Choose students
+                </f:facet>  
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Prijmeni" />  
+                    </f:facet>  
+                    <h:outputText value="#{student.login}" />  
+                </p:column> 
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Jmeno" />  
+                    </f:facet>  
+                    <h:outputText value="#{student.jmeno}" />  
+                </p:column>  
+
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Prijmeni" />  
+                    </f:facet>  
+                    <h:outputText value="#{student.prijmeni}" />  
+                </p:column> 
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Prijmeni" />  
+                    </f:facet>  
+                    <h:outputText value="#{student.mail}" />  
+                </p:column> 
+
+                <f:facet name="footer">  
+                </f:facet>  
+            </p:dataTable>  
+            <p:commandButton value="Chose" action="#{assignTask.tasksByStudents()}" update="taskForm"/>  
+        </h:form>
+        <h:form id="taskForm">  
+            <p:dataTable rendered="#{assignTask.displayTaskList}" var="task" value="#{assignTask.finalTaskList}"  
+                         selection="#{assignTask.taskChosenToRate}" selectionMode="single"
+                         onRowSelectUpdate="taskDetail:display"  
+                         onRowSelectComplete="taskDialog.show()"   
+                         onRowUnselectUpdate="growl" styleClass="facesFont"
+                         >  
+                <f:facet name="header">  
+                    Choose task
+                </f:facet>  
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Nazev zadani" />  
+                    </f:facet>  
+                    <h:outputText value="#{task.nazev}" />  
+                </p:column>  
+
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Popis" />  
+                    </f:facet>  
+                    <h:outputText value="#{task.popis}" />  
+                </p:column> 
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Datum odevzdani" />  
+                    </f:facet>  
+                    <h:outputText value="#{task.datumOdev}" >
+                        <f:convertDateTime ></f:convertDateTime>
+                    </h:outputText>
+
+                </p:column>  
+
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Deadline" >
+
+                        </h:outputText>
+                    </f:facet>  
+                    <h:outputText value="#{task.deadline}" >
+                        <f:convertDateTime ></f:convertDateTime>
+                    </h:outputText>
+                </p:column>  
+                <p:column>  
+                    <f:facet name="header">  
+                        <h:outputText value="Datum zadani" />  
+                    </f:facet>  
+                    <h:outputText value="#{task.datumZadani}" >
+                        <f:convertDateTime  ></f:convertDateTime>
+                    </h:outputText>
+                </p:column>  
+                <p:column filterBy="#{task.stav}"          
+                          filterOptions="#{assignTask.vybraneTasky}"  
+                          filterMatchMode="exact">     
+                    <f:facet name="header">  
+                        Stav
+                    </f:facet>  
+                    <h:outputText value="#{task.stav}" /> 
+                </p:column>
+            </p:dataTable>  
+        </h:form>
+        <h:form id="taskDetail">
+            <p:dialog header="Task Detail" widgetVar="taskDialog" resizable="false" 
+                      width="900" height="600"  showEffect="explode" hideEffect="explode">  
+
+                <h:panelGrid id="display" columns="2" cellpadding="4" title="Assigned Task">  
+                    <h:outputText value="Label"/>
+                    <h:outputText value="#{assignTask.taskChosenToRate.nazev}" />
+                    <h:outputText value="Description"/>
+                    <h:outputText value="#{assignTask.taskChosenToRate.popis}" />
+                      <h:outputText value="Soubor se zadanim" />
+                      <p:commandButton value="Download" ajax="false">
+                          <p:fileDownload id="zadani" value="#{assignTask.downloadZadani()}"/>
+                            </p:commandButton>
+                    <h:outputText value="Task created:"/>
+                    <h:outputText value="#{assignTask.taskChosenToRate.datumZadani}" >
+                        <f:convertDateTime ></f:convertDateTime>
+                    </h:outputText>
+                    <h:outputText value="Deadline"/>
+                    <h:outputText value="#{assignTask.taskChosenToRate.deadline}" >
+                        <f:convertDateTime ></f:convertDateTime>
+                    </h:outputText>
+
+                    <h:outputText value="Task submited:"/>
+                    <h:outputText value="#{assignTask.taskChosenToRate.datumOdev}" >
+                        <f:convertDateTime ></f:convertDateTime>
+                    </h:outputText>
+                    <h:outputText value="Name and Surname:" />
+                    <h:outputText value="#{assignTask.taskChosenToRate.student.jmeno} #{assignTask.taskChosenToRate.student.prijmeni}" />
+                    <h:outputText value="Email:" />
+                    <h:outputText value="#{assignTask.taskChosenToRate.student.mail}" />
+                    <h:outputText value="Username:" />
+                    <h:outputText value="#{assignTask.taskChosenToRate.student.login}" />
+
+                    <h:outputText value="Files" />
+                    <p:commandButton value="Nahrane soubory"  onclick="dlg1.show();" update="dialogFiles"/> 
+                    <h:outputText value="Comment" />
+                    <h:inputTextarea style="width:300px;height:100px;"  value="#{assignTask.taskChosenToRate.hodnoceniSlovy}" />
+                    <h:outputText value="Mark:" />
+                    <h:inputText  required="true"  value="#{assignTask.taskChosenToRate.hodnoceni}"  >
+                        <f:validateLength minimum="1" maximum="1" />
+                    </h:inputText>
+                    <h:outputText value="Nastavte stav" />
+                    <h:selectOneMenu id="statusTask" value="#{assignTask.taskChosenToRate.stav}" > 
+                        <f:selectItem itemValue="#{assignTask.taskChosenToRate.stav}" itemLabel="Vyberte stav" />
+                        <f:selectItem itemValue="OZNAMKOVANY" itemLabel="Oznamkovany" />
+                        <f:selectItem itemValue="OZNAMKOVANY_ZPOZDENY" itemLabel="Oznamkovany - zpozden" />
+                        <f:selectItem itemValue="NEVYHOVUJICI" itemLabel="Nevyhovujici" />
+
+                    </h:selectOneMenu>
+                </h:panelGrid>  
+                <p:commandButton value="Oznamkuj" update="messageForm:msgs" action="#{assignTask.rateTask()}" 
+                                 ajax="false"></p:commandButton>
+
+            </p:dialog>   
+            <p:dialog width="600" height="400" header="Nahrane soubory" widgetVar="dlg1">
+
+                <p:dataTable var="taskFile" value="#{assignTask.taskChosenToRate.m_ukolSoubor}" id="dialogFiles" >  
+                    <p:column>  
+                        <f:facet name="header">  
+                            Soubor
+                        </f:facet>  
+                        <h:outputText value="#{taskFile.file.path}" />  
+
+                    </p:column>
+                    <p:column>  
+                        <f:facet name="header">  
+                            Description
+                        </f:facet>  
+                        <h:outputText value="#{taskFile.description}" />  
+                    </p:column>
+                    <p:column>  
+                        <f:facet name="header">  
+                            Stahnout
+                        </f:facet>  
+                        <p:commandButton value="Download" ajax="false">  
+                            <p:fileDownload value="#{assignTask.download(taskFile)}" />  
+                        </p:commandButton> 
+                    </p:column> 
+                </p:dataTable>
+            </p:dialog>
+        </h:form>
+    </div>
+</ui:composition>

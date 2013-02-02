@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="SZU-ejbPU" transaction-type="JTA">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>jdbc/taskPro</jta-data-source>
+    <class>DL.entity.Customer</class>
+    <class>DL.entity.Kantor</class>
+    <class>DL.entity.Student</class>
+    <class>DL.entity.Ukol</class>
+    <class>DL.entity.Uzivatel</class>
+    <class>DL.entity.Zadani</class>
+    <class>DL.entity.Paralelka</class>
+    <class>DL.entity.Predmet</class>
+    <class>DL.entity.Admin</class>
+    <class>DL.entity.Skupina</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="eclipselink.ddl-generation" value="create-tables"/>
+    </properties>
+  </persistence-unit>
+</persistence>

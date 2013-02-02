@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/500/trunk/SZU/SZU-war/web/WEB-INF
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/479/trunk/SZU/SZU-war/web/WEB-INF/faces-config.xml
+END
+beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/85/trunk/SZU/SZU-war/web/WEB-INF/beans.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/500/trunk/SZU/SZU-war/web/WEB-INF/web.xml
+END
+glassfish-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/235/trunk/SZU/SZU-war/web/WEB-INF/glassfish-web.xml
+END

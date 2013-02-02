@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"  
+    xmlns:f="http://java.sun.com/jsf/core">
+
+
+    <div class="content2">
+        Zmena
+        <h:form>   
+            <p:dataTable var="task" value="#{taskBean.tasks}">  
+                <p:column headerText="Nazev">   
+                    <p:cellEditor>  
+                        <f:facet name="output">  
+                            <h:outputText value="#{task.nazev}" />  
+                        </f:facet>  
+                        <f:facet name="input">  
+                            <p:inputText value="#{task.nazev}" style="width:100%"/>  
+                        </f:facet>  
+                    </p:cellEditor>  
+                </p:column>  
+                <p:column headerText="Popis">   
+                    <p:cellEditor>  
+                        <f:facet name="output">  
+                            <h:outputText value="#{task.popis}" />  
+                        </f:facet>  
+                        <f:facet name="input">  
+                            <p:inputText value="#{task.popis}" style="width:100%"/>  
+                        </f:facet>  
+                    </p:cellEditor>  
+                </p:column>  
+                <p:column headerText="Options">  
+                    <p:rowEditor />  
+                </p:column>  
+            </p:dataTable>  
+            <p:commandButton action="#{taskBean.modifyTask()}" value="Modify!" ajax="false" />
+        </h:form>
+    </div>
+</ui:composition>

@@ -1,0 +1,41 @@
+#summary Zakladni informace o projektu s jeho dokumentaci
+
+= System pro zadavani ukolu - TaskPro =
+
+*Zkratka*<br>
+TaskPro<br><br>
+*Předmět*<br>
+Řízení softwarových projektů<br><br>
+*Detail*<br>
+Systém pro zadávání úkolů studentům, úkoly mohou být vypracovány individuálně i skupinou kontrolovanou adminem. Vícero odevzdání úkolů je možné a každý úkol může být akceptován nebo odmítnut, dále pak za něj lze získat body. Každý student může listovat statistiku bodů a úkolů.<br><br>
+*Datum vytvoření*<br>
+6.6.2011 14:50<br><br>
+*Počet členů*<br>
+4 from 4<br><br>
+*Zakladatel Projektu*<br>
+tom tom (tomas.cerny@fel.cvut.cz)<br><br>
+*Členové*<br>
+Tomáš Jiříček (jiricto2@fel.cvut.cz)<br>
+Martin Tomášek (tomasma5@fel.cvut.cz)<br>
+Jan Jakeš (jakesjan@fel.cvut.cz)<br>
+linh tran (tranthip@fel.cvut.cz)<br><br>
+*Dokumentace*<br>
+<a href="http://system-zadavani-ukolu.googlecode.com/issues/attachment?aid=10000002&name=TaskPro_Vize.pdf&token=266fc95a50bbe7f4eb082fd143b6f137">Vize</a><br>
+
+<a href="http://system-zadavani-ukolu.googlecode.com/issues/attachment?aid=10000001&name=TaskPro_prezentation.pdf&token=5934cbc27fe98d60024d69c01fabdac4">Prezantace</a><br>
+
+<a href="http://system-zadavani-ukolu.googlecode.com/issues/attachment?aid=10000000&name=TaksPro_Rizika.pdf&token=7b61f45b4debf64cf31834bbe6d6861e">Rizika</a><br>
+
+<a href="http://system-zadavani-ukolu.googlecode.com/issues/attachment?aid=70002001&name=odhad_projektu.pdf&token=f6ac64a87921a4bfee806912a32010a4">Odhad projektu</a><br>
+
+<a href="http://system-zadavani-ukolu.googlecode.com/issues/attachment?aid=70004000&name=funkcnost.gan&token=6073a7ffdc4a73347ae288cc0d7b359c">Funkcnost</a><br>
+
+<a href="http://system-zadavani-ukolu.googlecode.com/issues/attachment?aid=70004001&name=matize_zodpov%C4%9Bdnosti.xlsx&token=cd728df7ad26a887e759a1c8d4645c35">Matice zodpovednosti</a><br>
+
+<a href="http://system-zadavani-ukolu.googlecode.com/issues/attachment?aid=100002000&name=model+architektury.pdf&token=9730f7fdfce9efa16a15ec65cd5d90fc">Model architektury</a><br>
+
+<a href="http://system-zadavani-ukolu.googlecode.com/issues/attachment?aid=110004000&name=model_podsystemu.pdf&token=ec64d430a36a1ac49f4899273a87fe3f">Model podsystemu</a><br>
+
+<a href="http://system-zadavani-ukolu.googlecode.com/issues/attachment?aid=120001000&name=TaskPro_prezentace2.pptx&token=de3717cddfaa0ce9a3fe0eec467a4b5a">Prezentace2</a><br>
+
+<a href="http://system-zadavani-ukolu.googlecode.com/issues/attachment?aid=130000000&name=SZU+-+Entitn%C4%9B+rela%C4%8D%C3%AD+datab%C3%A1zov%C3%BD+model+model.png&token=8b56f4d910374f22e775777e89111d38">Databazovy model</a><br><br>

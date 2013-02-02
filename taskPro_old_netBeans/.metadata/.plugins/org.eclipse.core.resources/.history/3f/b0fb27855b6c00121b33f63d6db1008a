@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="multi2-web">
+        <property name="context-root" value="multi2-web"/>
+    </wb-module>
+</project-modules>

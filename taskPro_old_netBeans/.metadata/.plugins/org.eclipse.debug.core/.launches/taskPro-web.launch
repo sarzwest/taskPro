@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.wst.server.ui.launchConfigurationType">
+<stringAttribute key="client-id" value="org.jboss.ide.eclipse.as.core.server.internal.launch.jbtLaunchClient"/>
+<stringAttribute key="launchable-adapter-id" value="org.jboss.ide.eclipse.as.core.launchableAdapter1"/>
+<stringAttribute key="module-artifact" value="org.eclipse.jst.jee.server:taskPro-web//"/>
+<stringAttribute key="module-artifact-class" value="org.eclipse.wst.server.core.util.WebResource"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/taskPro-web"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<stringAttribute key="server-id" value="jboss-as-7.1.1.Final"/>
+</launchConfiguration>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"
+    >
+    <div class="content2">
+         <h:form id="messageForm" style="width: 800px">
+            <p:messages  id="msgs" showDetail="true"/>   
+        </h:form>
+        <h:form>
+            <h:panelGrid columns="2">
+                <h:outputText value="Nazev"/>
+                <p:inputText id="taskName" required="true" style="width: 400px;" value="#{taskBean.newTask.nazev}" />
+                <h:outputText value="Popis"/>
+                <p:inputTextarea id="taskDescr" style="width: 400px;height: 100px" required="true" value="#{taskBean.newTask.popis}"/>
+                <h:outputText value="Deadline"/>
+                <p:calendar id="taskDdl" style="width: 400px;" value="#{taskBean.newTask.deadline}" pattern="dd.MM.yyyy" />   
+    <h:outputText value="Nahrane soubory"/>
+                <p:commandButton value="Uploaded Files" ajax="false">
+                    <p:fileDownload id="koko" value="#{taskBean.download()}"/>
+                </p:commandButton>
+                <h:outputText value="Vytvor"/>
+                <p:commandButton value="Create task" action="#{taskBean.createTask()}" update="messageForm:msgs" ajax="false"></p:commandButton>
+            </h:panelGrid>
+        </h:form>  
+        <h:form enctype="multipart/form-data" prependId="false">   
+            <h:panelGrid columns="2">
+                <h:outputText value="Soubor *.pdf"/>
+                <p:fileUpload fileUploadListener="#{taskBean.handleFileUpload}"   
+                              allowTypes="*.pdf" description="PDF"/>        
+            </h:panelGrid>
+        </h:form>  
+    </div>
+
+</ui:composition>

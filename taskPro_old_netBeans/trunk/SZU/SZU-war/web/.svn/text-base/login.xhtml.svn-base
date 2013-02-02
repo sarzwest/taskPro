@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:p="http://primefaces.prime.com.tr/ui"  
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
+    </h:head>
+    <h:body>
+
+        <div class="prihlaseni">
+            <form method="POST" action="j_security_check">
+                <!--<h:form>-->
+                <div class="login">
+                    <div class="nazev">
+                        <h1>TaskPro</h1>
+                    </div>
+                    <br/>                    
+                    <label class="loginLabel" for="j_username">Přihlašovací jmeno:</label> 
+                    <p:inputText id="j_username" required="true" value="" />
+                    <label class="loginLabel" for="j_password">Heslo:</label>                    
+
+                    <p:password id="j_password" required="true" value="" feedback="false" minLength="0" />
+                    <div class="buttonCenter">
+
+                        <h:commandButton value="Log me in!"  type="submit"></h:commandButton>
+                        <br/>
+                    </div>
+                </div>
+            </form>
+
+        </div> 
+    </h:body>
+</html>

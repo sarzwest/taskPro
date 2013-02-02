@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:multi2-web" serverId="jboss-as-7.1.1.Final"/>
+  <module moduleId="org.eclipse.jst.jee.server:taskPro-web" serverId="jboss-as-7.1.1.Final"/>
+  <module moduleId="org.eclipse.jst.jee.server:jboss-javaee6-webapp" serverId="jboss-as-7.1.1.Final"/>
+  <module moduleId="org.eclipse.jst.jee.server:ticket-monster" serverId="jboss-as-7.1.1.Final"/>
+  <module moduleId="org.eclipse.jst.jee.server:taskPro-ear" serverId="jboss-as-7.1.1.Final"/>
+  <module moduleId="org.eclipse.jst.jee.server:multi2-ear" serverId="jboss-as-7.1.1.Final"/>
+  <module moduleId="org.eclipse.jst.jee.server:taskPro" serverId="jboss-as-7.1.1.Final"/>
+  <module moduleId="org.eclipse.jst.jee.server:taskPro-ejb" serverId="jboss-as-7.1.1.Final"/>
+</modules>

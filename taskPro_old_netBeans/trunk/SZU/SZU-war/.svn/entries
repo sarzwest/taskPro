@@ -1,0 +1,88 @@
+10
+
+dir
+517
+https://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-war
+https://system-zadavani-ukolu.googlecode.com/svn
+
+
+
+2011-12-12T15:07:01.958515Z
+517
+thegamees@email.cz
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+ae86dd96-92f7-ecfd-f7ca-3afd3b1e97ce
+
+build
+dir
+
+
+
+delete
+
+build.xml
+file
+
+
+
+
+2011-12-12T20:58:00.786836Z
+291ecc9fbe9aa4a736b7480bf7084d79
+2011-10-10T15:51:43.973121Z
+82
+martin@toms-cz.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3495
+
+dist
+dir
+
+
+
+delete
+
+lib
+dir
+
+nbproject
+dir
+
+src
+dir
+
+web
+dir
+

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"
+
+    xmlns:f="http://java.sun.com/jsf/core">
+    <div class="content2">
+        <h:form>
+            <table>
+                <tr>
+                    <th colspan="2"><div class="#{groupBean.cssErr}">#{groupBean.err}</div></th>
+                </tr>
+                <tr>
+                    <th> <label for="Skupina">Group name: </label></th>
+                    <td><p:inputText id="Skupina" value="#{groupBean.groupName}"></p:inputText> <br/></td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <h2>Selection of students into group</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        <p:dataTable var="group" value="#{groupBean.studenti}" paginator="false"   
+                                     selection="#{groupBean.vybraniStudenti}">  
+
+                            <f:facet name="header">  
+                                Students  
+                            </f:facet>  
+
+                            <p:column selectionMode="multiple" />  
+
+                            <p:column headerText="Login">  
+                                <h:outputText value="#{group.login}" />  
+                            </p:column>   
+
+                            <p:column headerText="Name">  
+                                <h:outputText value="#{group.jmeno}" />  
+                            </p:column>  
+
+                            <p:column headerText="Surname">  
+                                <h:outputText value="#{group.prijmeni}" />  
+                            </p:column>  
+
+                            <p:column headerText="Email">  
+                                <h:outputText value="#{group.mail}" />  
+                            </p:column> 
+
+                        </p:dataTable>  
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> 
+                        <p:commandButton value="Save" action="#{groupBean.uloz()}" ajax="false" />
+                    </th>
+                </tr>
+            </table>
+        </h:form>
+
+    </div>
+
+
+</ui:composition>

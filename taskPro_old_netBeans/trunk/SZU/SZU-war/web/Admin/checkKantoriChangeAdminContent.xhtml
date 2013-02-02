@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"
+
+    xmlns:f="http://java.sun.com/jsf/core">
+    <div class="content2">
+
+        <h:form>
+            <table>
+                <tr>
+                    <th><label for="login">Login</label></th>
+                    <td> <h:outputText id="login" value="#{checkKantoriBean.chosen.login}"></h:outputText></td> 
+                </tr>
+                <tr>
+                    <th><label for="name">Name</label></th>
+                    <td> <p:inputText id="name" value="#{checkKantoriBean.chosen.jmeno}"></p:inputText></td> 
+                </tr>
+                <tr>
+                    <th><label for="surname">Surname</label></th>
+                    <td> <p:inputText id="surname" value="#{checkKantoriBean.chosen.prijmeni}"></p:inputText></td> 
+                </tr>
+                <tr>
+                    <th><label for="imail">E-mail</label></th>
+                    <td> <p:inputText id="email" value="#{checkKantoriBean.chosen.mail}"></p:inputText></td> 
+                </tr>
+                <tr>
+                    <th><label for="status">Status</label></th>
+                    <td> <h:outputText id="status" value="Kantor"></h:outputText></td> 
+                </tr>
+                <tr>
+                    <th>
+                        
+                    </th>
+                    <th> 
+                        <p:commandButton value="Back" action="checkkantoriAdmin" ajax="false"></p:commandButton>
+                        <p:commandButton value="Modify" action="#{checkKantoriBean.modifyUser()}" ajax="false"></p:commandButton>
+                    </th>
+                </tr>
+            </table>
+        </h:form>
+
+    </div>
+
+</ui:composition>

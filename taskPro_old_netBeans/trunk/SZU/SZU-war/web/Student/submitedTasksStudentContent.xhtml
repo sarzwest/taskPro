@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"
+
+    xmlns:f="http://java.sun.com/jsf/core">
+    <div class="content4">
+
+        <h:form>
+
+            <p:dataTable
+                style="width: 800px"
+                var="task" value="#{submittedTaskBean.submittedTask}" paginator="true" rows="10"  
+                         selection="#{submittedTaskBean.vybrany}" selectionMode="single"  
+
+
+                         onRowSelectUpdate="display growl displayOrig displayTeacher"  
+                         onRowSelectComplete="taskDialog.show()"   
+                         onRowUnselectUpdate="growl" styleClass="facesFont">  
+                >  
+
+                <f:facet name="header">                    
+                </f:facet>  
+                <p:column headerText="zadani">  
+                    <h:outputText value="#{task.nazev}" />  
+                </p:column>  
+                <p:column>  
+                    <f:facet name="header">  
+                        Popis
+                    </f:facet>  
+                    <h:outputText value="#{task.popis}" /> 
+                </p:column>
+                <p:column>  
+                    <f:facet name="header">  
+                        Date of entry
+                    </f:facet>  
+                    <h:outputText value="#{task.datumZadani}" > 
+                        <f:convertDateTime  ></f:convertDateTime>
+                    </h:outputText>
+                </p:column>
+                <p:column>  
+                    <f:facet name="header">  
+                        Deadline
+                    </f:facet>  
+                    <h:outputText value="#{task.deadline}" >
+                            <f:convertDateTime  ></f:convertDateTime>
+                    </h:outputText>
+                </p:column>
+                    <p:column>  
+                    <f:facet name="header">  
+                      Submited
+                    </f:facet>  
+                        <h:outputText value="#{task.datumOdev}" >
+                            <f:convertDateTime  ></f:convertDateTime>
+                    </h:outputText>
+                </p:column>
+                 <p:column>  
+                    <f:facet name="header">  
+                        Teacher
+                    </f:facet>  
+                    <h:outputText value="#{task.zadani.kantor.jmeno} #{task.zadani.kantor.prijmeni}" /> 
+                </p:column>
+                <p:column filterBy="#{task.stav}"          
+                          filterOptions="#{submittedTaskBean.vybraneTasky}"  
+                filterMatchMode="exact">        
+                    <f:facet name="header">  
+                        Stav
+                    </f:facet>  
+                    <h:outputText value="#{task.stav}" /> 
+                </p:column>
+               
+            </p:dataTable>
+            <p:dialog header="Task Detail" widgetVar="taskDialog" resizable="false"  
+                      width="900" height="600"  showEffect="explode" hideEffect="explode">  
+                <p:fieldset legend="Assigned Task" toggleable="true" toggleSpeed="500" > 
+                    <h:panelGrid id="display" columns="2" cellpadding="4" title="Assigned Task">  
+
+                        <h:outputText value="Label"/>
+                        <h:outputText value="#{submittedTaskBean.vybrany.nazev}" />
+                        <h:outputText value="Description"/>
+                        <h:outputText value="#{submittedTaskBean.vybrany.popis}" />
+                        <h:outputText value="Deadline"/>
+                        <h:outputText value="#{submittedTaskBean.vybrany.deadline}" >
+                            <f:convertDateTime  ></f:convertDateTime>
+                        </h:outputText>
+                        <h:outputText value="Submited" /> 
+                        <h:outputText value="#{submittedTaskBean.vybrany.datumOdev}" >
+                        <f:convertDateTime  ></f:convertDateTime>
+                    </h:outputText>
+                        <h:outputText value="Task created:"/>
+                        <h:outputText value="#{submittedTaskBean.vybrany.datumZadani}" >
+                            <f:convertDateTime  ></f:convertDateTime>
+                        </h:outputText>
+                        <h:outputText value="Evaluation" />
+                        <h:outputText value="#{submittedTaskBean.vybrany.hodnoceni}" />
+                        <h:outputText value="Comment" />
+                        <h:outputText value="#{submittedTaskBean.vybrany.hodnoceniSlovy}" />
+                        <h:outputText value="Files" />
+                        <p:commandButton value="Nahrane soubory"  onclick="dlg1.show();" update="dialogFiles"/> 
+                        <h:outputText value="Teacher:"/>
+                        <p:fieldset legend="Teacher in task" toggleable="true" toggleSpeed="100" > 
+                            <h:panelGrid id="displayTeacher" columns="2" cellpadding="4" >  
+                                <h:outputText value="Name and Surname:" />
+                                <h:outputText value="#{submittedTaskBean.vybrany.zadani.kantor.jmeno} #{submittedTaskBean.vybrany.zadani.kantor.prijmeni}" />
+                                <h:outputText value="Email:" />
+                                <h:outputText value="#{submittedTaskBean.vybrany.zadani.kantor.mail}" />
+                            </h:panelGrid>
+                        </p:fieldset>   
+                    </h:panelGrid>  
+                </p:fieldset>
+                <p:fieldset legend="Original Task" toggleable="true" toggleSpeed="200" > 
+                    <h:panelGrid id="displayOrig" columns="2" cellpadding="4" title="Original Task">  
+                        <h:outputText value="Label"/>
+                        <h:outputText value="#{submittedTaskBean.vybrany.zadani.nazev}" />
+                        <h:outputText value="Description"/>
+                        <h:outputText value="#{submittedTaskBean.vybrany.zadani.popis}" />
+                        <h:outputText value="Deadline"/>
+                        <h:outputText value="#{submittedTaskBean.vybrany.zadani.deadline}" >
+                            <f:convertDateTime />
+                        </h:outputText>
+                           <h:outputText value="Soubor se zadanim" />
+                      <p:commandButton value="Download" ajax="false">
+                          <p:fileDownload id="zadani" value="#{submittedTaskBean.downloadZadani()}"/>
+                            </p:commandButton>
+                    </h:panelGrid>  
+                </p:fieldset>
+            </p:dialog>    
+            <p:dialog width="600" height="400" header="Nahrane soubory" widgetVar="dlg1">
+                <p:dataTable var="taskFile" value="#{submittedTaskBean.vybrany.m_ukolSoubor}" id="dialogFiles" >  
+                    <p:column>  
+                        <f:facet name="header">  
+                            Soubor
+                        </f:facet>  
+                        <h:outputText value="#{taskFile.file.path}" />  
+
+                    </p:column>
+                    <p:column>  
+                        <f:facet name="header">  
+                            Description
+                        </f:facet>  
+                        <h:outputText value="#{taskFile.description}" />  
+                    </p:column>
+                    <p:column>  
+                        <f:facet name="header">  
+                            Stahnout
+                        </f:facet>  
+                        <p:commandButton value="Download" ajax="false">  
+                            <p:fileDownload value="#{submittedTaskBean.download(taskFile)}" />  
+                        </p:commandButton> 
+                    </p:column> 
+                </p:dataTable>
+            </p:dialog>
+        </h:form>
+
+        
+    </div>
+     
+
+</ui:composition>

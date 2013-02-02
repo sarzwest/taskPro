@@ -1,0 +1,1885 @@
+!SESSION 2013-01-31 21:10:56.817 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=cs_CZ
+Framework arguments:  -product com.jboss.jbds.product.product
+Command-line arguments:  -data /home/papa/NetBeansProjects/taskPro_group -os linux -ws gtk -arch x86_64 -product com.jboss.jbds.product.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-01-31 21:23:37.675
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-01-31 21:23:48.914
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:35:42.527
+!MESSAGE Module /taskPro published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:37:27.919
+!MESSAGE Module taskPro-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:37:27.940
+!MESSAGE Module taskPro-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:37:27.955
+!MESSAGE Module taskPro-ejb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-01-31 21:37:34.409
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 21:37:37.425
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 21:37:37.429
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 21:37:37.431
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-01-31 21:37:42.585
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-01-31 21:37:48.507
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-01-31 21:37:48.724
+!MESSAGE Module taskPro-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-01-31 21:38:09.284
+!MESSAGE Module taskPro-ear on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY unknown 0 0 2013-01-31 21:41:22.701
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:52:40.491
+!MESSAGE Module taskPro published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:52:40.505
+!MESSAGE Module taskPro-ejb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:52:40.515
+!MESSAGE Module taskPro-war published without error.
+
+!ENTRY unknown 0 0 2013-01-31 21:52:40.530
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-01-31 21:52:40.646
+!MESSAGE Module taskPro on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:55:34.045
+!MESSAGE 1 files modified in module taskPro-war
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:55:58.755
+!MESSAGE 1 files modified in module taskPro-war
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:58:29.965
+!MESSAGE 1 files modified in module taskPro-war
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:59:11.276
+!MESSAGE 1 files modified in module taskPro-war
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 21:59:17.540
+!MESSAGE 1 files modified in module taskPro-war
+
+!ENTRY unknown 0 0 2013-01-31 22:02:58.343
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-01-31 22:02:58.350
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-01-31 22:02:59.328
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:14:20.501
+!MESSAGE Module ticket-monster published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-01-31 22:14:21.239
+!MESSAGE Module ticket-monster on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-01-31 22:16:48.747
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-01-31 22:34:13.384
+!MESSAGE Full publish failed for module taskPro-ear
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:34:13.390
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:34:13.391
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/application.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:34:13.391
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-ear/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:34:13.391
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-ear/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-01-31 22:34:13.441
+!MESSAGE Full publish failed for module taskPro-web
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:34:13.441
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:34:13.441
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-web/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:34:13.441
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-web/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-01-31 22:34:13.462
+!MESSAGE Full publish failed for module taskPro-ejb
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:34:13.462
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut.fel.jee/taskPro-ejb/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:34:13.462
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut.fel.jee/taskPro-ejb/pom.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:34:13.462
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-01-31 22:35:53.871
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-01-31 22:36:14.437
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:36:40.075
+!MESSAGE 3 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:41:14.444
+!MESSAGE 3 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:41:14.452
+!MESSAGE 2 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:42:23.278
+!MESSAGE 3 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:43:06.714
+!MESSAGE 3 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:43:57.697
+!MESSAGE 2 files modified in module taskPro-web
+
+!ENTRY unknown 0 0 2013-01-31 22:45:11.952
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-01-31 22:45:11.975
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-01-31 22:45:11.993
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-01-31 22:45:38.910
+!MESSAGE Full publish failed for module taskPro-ear
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:45:38.911
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:45:38.911
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/application.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:45:38.911
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-ear/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:45:38.911
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-ear/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-01-31 22:45:38.927
+!MESSAGE Full publish failed for module taskPro-web
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:45:38.928
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:45:38.928
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-web/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:45:38.928
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-web/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-01-31 22:45:38.938
+!MESSAGE Full publish failed for module taskPro-ejb
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:45:38.938
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut.fel.jee/taskPro-ejb/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:45:38.938
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut.fel.jee/taskPro-ejb/pom.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-01-31 22:45:38.938
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-01-31 22:46:11.947
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-01-31 22:46:32.467
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:47:10.649
+!MESSAGE 3 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:47:35.272
+!MESSAGE 3 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:47:58.502
+!MESSAGE 4 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:47:58.508
+!MESSAGE 7 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:47:58.516
+!MESSAGE 8 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:50:34.235
+!MESSAGE Module taskPro-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:50:39.457
+!MESSAGE Module taskPro-ejb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:50:46.215
+!MESSAGE Module taskPro-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:50:46.228
+!MESSAGE Module taskPro-web published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:50:46.235
+!MESSAGE Module taskPro-ejb published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-01-31 22:52:27.465
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 22:52:27.761
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 22:52:27.764
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 22:52:27.765
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-01-31 22:52:32.840
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-01-31 22:52:49.433
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:54:06.046
+!MESSAGE 2 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 22:54:15.792
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 22:54:15.814
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 22:54:15.816
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-01-31 22:54:35.233
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-01-31 22:54:46.318
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 22:55:02.630
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 22:55:02.646
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 22:55:02.648
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-01-31 22:55:17.371
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-01-31 22:55:28.734
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 22:56:25.486
+!MESSAGE 3 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:00:16.694
+!MESSAGE 4 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:00:16.702
+!MESSAGE 7 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:00:16.711
+!MESSAGE 8 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:00:26.406
+!MESSAGE 6 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:00:26.536
+!MESSAGE 103 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:02:08.957
+!MESSAGE 2 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:02:09.006
+!MESSAGE 45 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:02:09.068
+!MESSAGE 105 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:09:15.111
+!MESSAGE 2 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:09:15.220
+!MESSAGE 51 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:09:15.311
+!MESSAGE 111 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:09:16.498
+!MESSAGE 2 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:09:16.521
+!MESSAGE 20 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:09:16.749
+!MESSAGE 111 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:10:10.738
+!MESSAGE 3 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:10:10.753
+!MESSAGE 2 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:10:10.767
+!MESSAGE 2 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:13:15.509
+!MESSAGE 1 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:13:15.525
+!MESSAGE 4 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:13:35.896
+!MESSAGE 2 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:13:35.901
+!MESSAGE 2 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:13:53.996
+!MESSAGE 51 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:15:58.309
+!MESSAGE 3 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:19:41.346
+!MESSAGE 1 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:19:41.392
+!MESSAGE 5 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-01-31 23:22:47.205
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 23:22:47.614
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 23:22:47.732
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-01-31 23:22:47.742
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-01-31 23:22:52.691
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-01-31 23:23:03.524
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:27:09.052
+!MESSAGE 2 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:27:09.062
+!MESSAGE 52 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:34:01.833
+!MESSAGE 1 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:34:01.853
+!MESSAGE 4 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:41:38.879
+!MESSAGE 2 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:41:38.928
+!MESSAGE 51 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:41:38.934
+!MESSAGE 2 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:52:01.687
+!MESSAGE 3 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:52:01.705
+!MESSAGE 2 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:52:01.716
+!MESSAGE 2 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:52:51.148
+!MESSAGE 123 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:54:06.523
+!MESSAGE 3 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:54:06.576
+!MESSAGE 52 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-01-31 23:54:06.684
+!MESSAGE 110 files modified in module taskPro-ejb
+!SESSION 2013-01-31 23:57:33.695 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=cs_CZ
+Framework arguments:  -product com.jboss.jbds.product.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.jboss.jbds.product.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 00:23:51.631
+!MESSAGE Full publish failed for module taskPro-ear
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.631
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.631
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/application.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.631
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-ear/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.631
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-ear/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 00:23:51.721
+!MESSAGE Full publish failed for module taskPro-web
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-web/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-web/pom.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/backingBean/.svn/text-base/LoginBean.java.netbeans-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/backingBean/.svn/text-base/LoginBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/backingBean/.svn/text-base/testBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/backingBean/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/backingBean/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/groupBean/.svn/text-base/GroupBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/groupBean/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/groupBean/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/subjectBean/.svn/text-base/ParalelkaBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/subjectBean/.svn/text-base/SubjectBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.721
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/subjectBean/.svn/text-base/TreeSubjectBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/subjectBean/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/subjectBean/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/AssignTask.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/allTaskBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/kantorsTask.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/studentTask.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/submittedTaskBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/taskBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/text-base/CheckKantoriBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/text-base/CheckStudentBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/text-base/FileBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/text-base/UserBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/warning/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.722
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/warning/.svn/entries
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 00:23:51.756
+!MESSAGE Full publish failed for module taskPro-ejb
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.756
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.756
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.756
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/Application.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/ApplicationLocal.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/IParalelka.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/IPredmetB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/ISkupinaB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/IUkolB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/IUzivatelB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/IZadaniB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Paralelka/.svn/text-base/ParalelkaB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Paralelka/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Paralelka/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Predmet/.svn/text-base/PredmetB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Predmet/.svn/text-base/SkupinaB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Predmet/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Predmet/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Support/.svn/text-base/ConvertB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Support/.svn/text-base/MaintanceB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Support/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.757
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Support/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Ukol/.svn/text-base/UkolB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Ukol/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Ukol/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Uzivatel/.svn/text-base/UzivatelB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Uzivatel/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Uzivatel/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Zadani/.svn/text-base/ZadaniB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Zadani/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Zadani/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/IObjectManager.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/IPredmetD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/ISkupinaD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/IUkolD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/IUzivatelD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/IZadaniD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.758
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Admin.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Kantor.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Paralelka.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Predmet.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Skupina.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Student.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Ukol.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/UkolSoubor.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Uzivatel.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Zadani.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/test.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/ObjectManager.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/PredmetD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/SkupinaD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/UkolD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/UzivatelD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/ZadaniD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.759
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.760
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.760
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut.fel.jee/taskPro-ejb/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.760
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut.fel.jee/taskPro-ejb/pom.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 00:23:51.760
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-01 00:23:58.010
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-01 00:24:09.193
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:31:16.535
+!MESSAGE 3 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:31:34.535
+!MESSAGE 4 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:31:34.589
+!MESSAGE 50 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:31:34.757
+!MESSAGE 124 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:31:45.493
+!MESSAGE 2 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:31:45.585
+!MESSAGE 49 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:31:45.635
+!MESSAGE 5 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:33:46.645
+!MESSAGE 4 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:33:46.726
+!MESSAGE 50 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:33:46.846
+!MESSAGE 112 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:37:43.163
+!MESSAGE 4 files modified in module taskPro-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:37:43.250
+!MESSAGE 50 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:37:43.424
+!MESSAGE 113 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:43:20.867
+!MESSAGE 3 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 00:46:08.872
+!MESSAGE 3 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-02-01 00:58:31.831
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 00:58:32.181
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 00:58:32.184
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 00:58:32.186
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-01 01:01:07.686
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-01 01:01:18.647
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-02-01 01:29:56.926
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 01:29:57.197
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 01:29:57.199
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 01:29:57.201
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-01 01:30:02.262
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-01 01:30:08.100
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 01:43:07.040
+!MESSAGE Full publish failed for module taskPro-ear
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.040
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.040
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/application.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.040
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-ear/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.040
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-ear/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 01:43:07.259
+!MESSAGE Full publish failed for module taskPro-web
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.259
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.259
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-web/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.259
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut.fel.jee/taskPro-web/pom.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/backingBean/.svn/text-base/LoginBean.java.netbeans-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/backingBean/.svn/text-base/LoginBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/backingBean/.svn/text-base/testBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/backingBean/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/backingBean/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/groupBean/.svn/text-base/GroupBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/groupBean/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/groupBean/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/subjectBean/.svn/text-base/ParalelkaBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/subjectBean/.svn/text-base/SubjectBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/subjectBean/.svn/text-base/TreeSubjectBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/subjectBean/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/subjectBean/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/AssignTask.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/allTaskBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/kantorsTask.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/studentTask.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/submittedTaskBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/text-base/taskBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.260
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/taskBeans/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.261
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/text-base/CheckKantoriBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.261
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/text-base/CheckStudentBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.261
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/text-base/FileBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.261
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/text-base/UserBean.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.261
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.261
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/userBean/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.261
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/warning/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.261
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/classes/warning/.svn/entries
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 01:43:07.412
+!MESSAGE Full publish failed for module taskPro-ejb
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.412
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.412
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/Application.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/ApplicationLocal.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/IParalelka.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/IPredmetB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/ISkupinaB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/IUkolB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/IUzivatelB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/text-base/IZadaniB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/IBussiness/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Paralelka/.svn/text-base/ParalelkaB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Paralelka/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Paralelka/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Predmet/.svn/text-base/PredmetB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Predmet/.svn/text-base/SkupinaB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Predmet/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Predmet/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Support/.svn/text-base/ConvertB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Support/.svn/text-base/MaintanceB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Support/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.413
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Support/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Ukol/.svn/text-base/UkolB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Ukol/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Ukol/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Uzivatel/.svn/text-base/UzivatelB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Uzivatel/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Uzivatel/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Zadani/.svn/text-base/ZadaniB.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Zadani/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/BL/Zadani/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/IObjectManager.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/IPredmetD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/ISkupinaD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/IUkolD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/IUzivatelD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/text-base/IZadaniD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/Imanager/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Admin.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.414
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Kantor.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Paralelka.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Predmet.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Skupina.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Student.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Ukol.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/UkolSoubor.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Uzivatel.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/Zadani.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/text-base/test.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/entity/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/ObjectManager.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/PredmetD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/SkupinaD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/UkolD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/UzivatelD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/text-base/ZadaniD.java.svn-base
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/all-wcprops
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/DL/manager/.svn/entries
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut.fel.jee/taskPro-ejb/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.415
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut.fel.jee/taskPro-ejb/pom.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 01:43:07.416
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-02-01 01:45:59.180
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 01:45:59.480
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 01:45:59.483
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 01:45:59.485
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-01 01:46:32.568
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-01 01:46:43.699
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 02:06:10.863
+!MESSAGE 4 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 02:06:10.905
+!MESSAGE 3 files modified in module taskPro-ejb
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 09:29:22.143
+!MESSAGE 51 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 09:31:26.671
+!MESSAGE Module jboss-javaee6-webapp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 09:31:27.515
+!MESSAGE Module jboss-javaee6-webapp on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 09:33:24.417
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 09:33:45.091
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 09:42:45.198
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 09:43:06.082
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 10:01:50.361
+!MESSAGE 3 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 10:02:58.154
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 10:03:19.249
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 10:04:19.834
+!MESSAGE 3 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 10:07:37.634
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 10:07:58.601
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 10:09:27.490
+!MESSAGE 3 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 10:10:16.129
+!MESSAGE 3 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 10:10:20.872
+!MESSAGE 231 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 10:10:32.563
+!MESSAGE 3 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 10:11:15.007
+!MESSAGE 3 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 10:12:07.715
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 10:12:28.448
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 10:13:16.548
+!MESSAGE 3 files modified in module taskPro-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 10:13:55.557
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 10:14:16.490
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 10:15:37.137
+!MESSAGE 63 files modified in module jboss-javaee6-webapp
+
+!ENTRY unknown 0 0 2013-02-01 10:15:37.143
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 10:15:37.147
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 10:15:38.335
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 10:21:03.210
+!MESSAGE Full publish failed for module taskPro-ear
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:21:03.210
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:21:03.210
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/application.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:21:03.210
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut/taskPro-ear/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:21:03.210
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut/taskPro-ear/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 10:21:03.245
+!MESSAGE Full publish failed for module taskPro-web
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:21:03.245
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:21:03.246
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut/taskPro-web/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:21:03.246
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut/taskPro-web/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 10:21:03.262
+!MESSAGE Full publish failed for module taskPro-ejb
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:21:03.262
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut/taskPro-ejb/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:21:03.262
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut/taskPro-ejb/pom.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:21:03.262
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 10:21:03.609
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-02-01 10:21:24.327
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 10:21:24.341
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 10:21:24.355
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 10:21:24.797
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 10:21:40.702
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 10:22:01.455
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-02-01 10:22:49.299
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 10:22:53.195
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 10:22:53.197
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-01 10:23:02.510
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-01 10:23:18.960
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 10:23:29.134
+!MESSAGE Full publish failed for module taskPro-ear
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:23:29.134
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:23:29.134
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/application.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:23:29.134
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut/taskPro-ear/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:23:29.134
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut/taskPro-ear/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 10:23:29.150
+!MESSAGE Full publish failed for module taskPro-web
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:23:29.150
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:23:29.150
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut/taskPro-web/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:23:29.150
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut/taskPro-web/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 10:23:29.161
+!MESSAGE Full publish failed for module taskPro-ejb
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:23:29.161
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut/taskPro-ejb/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:23:29.161
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut/taskPro-ejb/pom.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:23:29.161
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 10:23:36.840
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 10:23:57.663
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 10:25:51.881
+!MESSAGE Module jboss-javaee6-webapp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 10:25:51.891
+!MESSAGE Full publish failed for module taskPro-ear
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:25:51.891
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:25:51.891
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/application.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:25:51.891
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut/taskPro-ear/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:25:51.891
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/cz.cvut/taskPro-ear/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 10:25:51.905
+!MESSAGE Full publish failed for module taskPro-web
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:25:51.905
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:25:51.905
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut/taskPro-web/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:25:51.905
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/cz.cvut/taskPro-web/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 10:25:51.964
+!MESSAGE Full publish failed for module taskPro-ejb
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:25:51.964
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut/taskPro-ejb/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:25:51.964
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/cz.cvut/taskPro-ejb/pom.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 10:25:51.964
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 10:27:05.549
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 10:27:26.191
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 10:28:19.872
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 10:28:40.505
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY unknown 0 0 2013-02-01 10:30:34.705
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 10:30:44.311
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 10:30:44.314
+!MESSAGE Server processes have been terminated.
+!SESSION 2013-02-01 10:31:13.038 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=cs_CZ
+Framework arguments:  -product com.jboss.jbds.product.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.jboss.jbds.product.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 10:36:33.000
+!MESSAGE Module jboss-javaee6-webapp published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-01 10:36:38.826
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-01 10:36:50.377
+!MESSAGE Server Startup Succeeded
+
+!ENTRY unknown 0 0 2013-02-01 10:36:50.402
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-02-01 10:43:14.978
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 10:43:15.713
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 10:43:15.713
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 10:43:15.713
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-01 10:43:31.836
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-01 10:43:45.586
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-02-01 11:00:56.814
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 11:00:57.354
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 11:00:57.354
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 11:00:57.355
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-01 11:09:26.331
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-01 11:09:40.559
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 11:35:16.763
+!MESSAGE Full publish failed for module taskPro-ear
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:35:16.763
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:35:16.763
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/application.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:35:16.763
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/org.jboss.tools.example/taskPro-ear/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:35:16.763
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/org.jboss.tools.example/taskPro-ear/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 11:35:16.832
+!MESSAGE Full publish failed for module taskPro-web
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:35:16.832
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:35:16.832
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/org.jboss.tools.example/taskPro-web/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:35:16.832
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/org.jboss.tools.example/taskPro-web/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 11:35:16.841
+!MESSAGE Full publish failed for module taskPro-ejb
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:35:16.841
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/org.jboss.tools.example/taskPro-ejb/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:35:16.841
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/org.jboss.tools.example/taskPro-ejb/pom.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:35:16.841
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 11:35:17.224
+!MESSAGE Module taskPro-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 11:37:34.749
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 11:37:55.419
+!MESSAGE Module taskPro-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY unknown 0 0 2013-02-01 11:38:09.311
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 11:40:05.316
+!MESSAGE Module multi2-ear published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 11:40:05.344
+!MESSAGE Full publish failed for module multi2-web
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:40:05.344
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/multi2/multi2-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:40:05.344
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/multi2/multi2-web/target/m2e-wtp/web-resources/META-INF/maven/org.jboss.tools.example/multi2-web/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:40:05.344
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/multi2/multi2-web/target/m2e-wtp/web-resources/META-INF/maven/org.jboss.tools.example/multi2-web/pom.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298242 2013-02-01 11:40:05.370
+!MESSAGE Full publish failed for module multi2-ejb
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:40:05.370
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/multi2/multi2-ejb/target/classes/META-INF/maven/org.jboss.tools.example/multi2-ejb/pom.properties
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:40:05.370
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/multi2/multi2-ejb/target/classes/META-INF/maven/org.jboss.tools.example/multi2-ejb/pom.xml
+!SUBENTRY 1 org.eclipse.wst.server.core 4 1644298251 2013-02-01 11:40:05.370
+!MESSAGE Error reading file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/multi2/multi2-ejb/target/classes/META-INF/MANIFEST.MF
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 11:40:05.577
+!MESSAGE Module multi2-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 11:41:57.576
+!MESSAGE 3 files modified in module multi2-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 11:41:57.582
+!MESSAGE 3 files modified in module multi2-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 11:42:06.814
+!MESSAGE 3 files modified in module multi2-web
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2013-02-01 11:42:12.856
+!MESSAGE 2 files modified in module multi2-ear
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 11:43:00.857
+!MESSAGE Module multi2-web on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 11:43:21.553
+!MESSAGE Module multi2-web on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY unknown 0 0 2013-02-01 12:01:15.245
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:03:22.764
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:03:23.714
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:03:23.737
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:03:23.741
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 12:03:24.041
+!MESSAGE Module jboss-javaee6-webapp on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-02-01 12:09:48.355
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:09:48.476
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:11:22.384
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:11:22.404
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2013-02-01 12:11:22.650
+!MESSAGE Publish Failed for module testid-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:11:22.651
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid-ear.ear/testid-web-0.0.1-SNAPSHOT.war/META-INF/MANIFEST.MF has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:11:22.651
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-web/target/m2e-wtp/web-resources/META-INF/maven/org.jboss.tools.examples/testid-web/pom.properties to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid-ear.ear/testid-web-0.0.1-SNAPSHOT.war/META-INF/maven/org.jboss.tools.examples/testid-web/pom.properties has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:11:22.651
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-web/target/m2e-wtp/web-resources/META-INF/maven/org.jboss.tools.examples/testid-web/pom.xml to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid-ear.ear/testid-web-0.0.1-SNAPSHOT.war/META-INF/maven/org.jboss.tools.examples/testid-web/pom.xml has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:11:22.651
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-ejb/target/classes/META-INF/maven/org.jboss.tools.examples/testid-ejb/pom.properties to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid-ear.ear/testid-ejb-0.0.1-SNAPSHOT.jar/META-INF/maven/org.jboss.tools.examples/testid-ejb/pom.properties has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:11:22.651
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-ejb/target/classes/META-INF/maven/org.jboss.tools.examples/testid-ejb/pom.xml to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid-ear.ear/testid-ejb-0.0.1-SNAPSHOT.jar/META-INF/maven/org.jboss.tools.examples/testid-ejb/pom.xml has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:11:22.651
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-ejb/target/classes/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid-ear.ear/testid-ejb-0.0.1-SNAPSHOT.jar/META-INF/MANIFEST.MF has failed
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 12:11:23.045
+!MESSAGE Module testid-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-02-01 12:11:23.209
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:11:23.214
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:11:23.223
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:15:33.422
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:15:33.429
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:15:33.507
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:16:37.362
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:16:37.366
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:16:37.373
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2013-02-01 12:16:37.551
+!MESSAGE Publish Failed for module /testid
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:16:37.551
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-ejb/target/classes/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid/testid-ejb/target/classes/META-INF/MANIFEST.MF has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:16:37.551
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-ejb/target/classes/META-INF/maven/org.jboss.tools.examples/testid-ejb/pom.properties to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid/testid-ejb/target/classes/META-INF/maven/org.jboss.tools.examples/testid-ejb/pom.properties has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:16:37.551
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-ejb/target/classes/META-INF/maven/org.jboss.tools.examples/testid-ejb/pom.xml to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid/testid-ejb/target/classes/META-INF/maven/org.jboss.tools.examples/testid-ejb/pom.xml has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:16:37.552
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid/testid-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:16:37.552
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-web/target/m2e-wtp/web-resources/META-INF/maven/org.jboss.tools.examples/testid-web/pom.properties to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid/testid-web/target/m2e-wtp/web-resources/META-INF/maven/org.jboss.tools.examples/testid-web/pom.properties has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 12:16:37.552
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-web/target/m2e-wtp/web-resources/META-INF/maven/org.jboss.tools.examples/testid-web/pom.xml to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid/testid-web/target/m2e-wtp/web-resources/META-INF/maven/org.jboss.tools.examples/testid-web/pom.xml has failed
+
+!ENTRY unknown 0 0 2013-02-01 12:16:38.309
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:16:38.321
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:16:38.353
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:16:38.363
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:17:35.952
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:17:36.093
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:17:36.103
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:17:36.109
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:17:36.966
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:17:37.148
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:17:37.280
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:17:37.290
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:17:37.296
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 12:17:37.491
+!MESSAGE OK
+!SESSION 2013-02-01 13:17:01.053 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=cs_CZ
+Framework arguments:  -product com.jboss.jbds.product.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.jboss.jbds.product.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2013-02-01 13:19:59.105
+!MESSAGE Publish Failed for module multi2-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 13:19:59.105
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/multi2/multi2-ear/target/m2e-wtp/ear-resources/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/multi2-ear.ear/META-INF/MANIFEST.MF has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 13:19:59.105
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/multi2/multi2-ear/target/m2e-wtp/ear-resources/META-INF/maven/org.jboss.tools.example/multi2-ear/pom.properties to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/multi2-ear.ear/META-INF/maven/org.jboss.tools.example/multi2-ear/pom.properties has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 13:19:59.105
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/multi2/multi2-ear/target/m2e-wtp/ear-resources/META-INF/maven/org.jboss.tools.example/multi2-ear/pom.xml to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/multi2-ear.ear/META-INF/maven/org.jboss.tools.example/multi2-ear/pom.xml has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 13:19:59.105
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/multi2/multi2-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/multi2-ear.ear/multi2-web-0.0.1-SNAPSHOT.war/META-INF/MANIFEST.MF has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 13:19:59.105
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/multi2/multi2-ejb/target/classes/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/multi2-ear.ear/multi2-ejb-0.0.1-SNAPSHOT.jar/META-INF/MANIFEST.MF has failed
+
+!ENTRY unknown 0 0 2013-02-01 13:19:59.321
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2013-02-01 13:19:59.595
+!MESSAGE Publish Failed for module testid-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 13:19:59.595
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid-ear.ear/testid-web-0.0.1-SNAPSHOT.war/META-INF/MANIFEST.MF has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 13:19:59.596
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-ejb/target/classes/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid-ear.ear/testid-ejb-0.0.1-SNAPSHOT.jar/META-INF/MANIFEST.MF has failed
+
+!ENTRY unknown 0 0 2013-02-01 13:19:59.615
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:19:59.629
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-01 13:20:06.244
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-01 13:20:26.474
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 13:20:27.368
+!MESSAGE Module multi2-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 13:20:47.392
+!MESSAGE Module multi2-ear on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY unknown 0 0 2013-02-01 13:21:42.901
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:21:42.909
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:21:42.923
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:21:45.380
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:21:45.387
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:21:45.402
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2013-02-01 13:21:45.843
+!MESSAGE Publish Failed for module /testid
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 13:21:45.843
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-ejb/target/classes/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid/testid-ejb/target/classes/META-INF/MANIFEST.MF has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 13:21:45.843
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/testid/testid-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/testid/testid-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF has failed
+
+!ENTRY unknown 0 0 2013-02-01 13:21:46.785
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:21:48.345
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:21:48.798
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:21:48.859
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:21:48.877
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:21:49.547
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:22:12.824
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:22:12.830
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:22:14.001
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:22:14.009
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 13:22:14.014
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2013-02-01 13:44:28.587
+!MESSAGE Publish Failed for module test
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 13:44:28.587
+!MESSAGE Copy of /home/papa/.m2/repository/org/glassfish/web/el-impl/2.1.2-b04/el-impl-2.1.2-b04.jar to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/test.war/WEB-INF/lib/el-impl-2.1.2-b04.jar has failed
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 13:44:29.138
+!MESSAGE Module test on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-02-01 13:44:29.311
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 13:44:50.133
+!MESSAGE Module test on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-02-01 13:55:33.845
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 16973827 2013-02-01 13:56:09.133
+!MESSAGE Killing the server process has failed. The process may still be running.
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.model.RuntimeProcess.terminate(RuntimeProcess.java:224)
+	at org.jboss.ide.eclipse.as.core.server.internal.LocalJBossBehaviorDelegate.forceStop(LocalJBossBehaviorDelegate.java:126)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7BehaviorDelegate.forceStop(LocalJBoss7BehaviorDelegate.java:53)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7BehaviorDelegate.stopImpl(LocalJBoss7BehaviorDelegate.java:40)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractJBossBehaviourDelegate.stop(AbstractJBossBehaviourDelegate.java:43)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.DelegatingJBoss7ServerBehavior.stop(DelegatingJBoss7ServerBehavior.java:141)
+	at org.eclipse.wst.server.core.internal.Server.stopImpl2(Server.java:3578)
+	at org.eclipse.wst.server.core.internal.Server.stopImpl(Server.java:3541)
+	at org.eclipse.wst.server.core.internal.Server$StopJob.run(Server.java:396)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2013-02-01 13:56:09.166
+!MESSAGE Terminate failed
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 13:56:09.185
+!MESSAGE Server processes have been terminated.
+
+!ENTRY unknown 0 0 2013-02-01 14:14:25.878
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 14:14:25.957
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-01 14:14:31.280
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-01 14:14:51.731
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 14:14:52.236
+!MESSAGE Module multi-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 14:15:12.837
+!MESSAGE Module multi-ear on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY unknown 0 0 2013-02-01 14:15:43.508
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 14:15:51.630
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 14:15:52.123
+!MESSAGE Module multi-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-02-01 14:15:52.258
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2013-02-01 14:16:12.653
+!MESSAGE Module multi-ear on jboss-as-7.1.1.Final still not ready to be shown in browser. Aborting delay.
+
+!ENTRY unknown 0 0 2013-02-01 14:17:30.596
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 14:22:24.485
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 14:22:24.663
+!MESSAGE Module taskPro-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-02-01 14:22:25.238
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2013-02-01 14:30:08.486
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 14:30:09.711
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 14:30:09.714
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2013-02-01 14:30:09.715
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-01 14:30:14.809
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-01 14:30:35.032
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2013-02-01 14:43:28.058
+!MESSAGE Publish Failed for module taskPro-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.058
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/META-INF/MANIFEST.MF has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.058
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/application.xml to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/META-INF/application.xml has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.058
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/taskPro/taskPro-ear/pom.properties to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/META-INF/maven/taskPro/taskPro-ear/pom.properties has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.058
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ear/target/m2e-wtp/ear-resources/META-INF/maven/taskPro/taskPro-ear/pom.xml to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/META-INF/maven/taskPro/taskPro-ear/pom.xml has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.058
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/META-INF/MANIFEST.MF has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.058
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/taskPro/taskPro-web/pom.properties to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/META-INF/maven/taskPro/taskPro-web/pom.properties has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.058
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/target/m2e-wtp/web-resources/META-INF/maven/taskPro/taskPro-web/pom.xml to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/META-INF/maven/taskPro/taskPro-web/pom.xml has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.058
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/index.html to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/index.html has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.058
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/css/screen.css to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/css/screen.css has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/gfx/asidebkg.png to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/gfx/asidebkg.png has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/gfx/banner.png to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/gfx/banner.png has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/gfx/bkg-blkheader.png to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/gfx/bkg-blkheader.png has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/gfx/dualbrand_as7eap.png to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/gfx/dualbrand_as7eap.png has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/gfx/dualbrand_catapillarbutterfly.png to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/gfx/dualbrand_catapillarbutterfly.png has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/gfx/dualbrand_logo.png to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/gfx/dualbrand_logo.png has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/gfx/headerbkg.png to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/gfx/headerbkg.png has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/gfx/icon_large.png to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/gfx/icon_large.png has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/gfx/icon_medium.png to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/gfx/icon_medium.png has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/gfx/icon_small.png to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/gfx/icon_small.png has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-web/src/main/webapp/resources/gfx/logo.png to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/gfx/logo.png has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/taskPro/taskPro-ejb/pom.properties to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-ejb-0.0.1-SNAPSHOT.jar/META-INF/maven/taskPro/taskPro-ejb/pom.properties has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/maven/taskPro/taskPro-ejb/pom.xml to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-ejb-0.0.1-SNAPSHOT.jar/META-INF/maven/taskPro/taskPro-ejb/pom.xml has failed
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:43:28.059
+!MESSAGE Copy of /home/papa/Dokumenty/NetBeansProjects/taskPro_group/taskPro/taskPro-ejb/target/classes/META-INF/MANIFEST.MF to /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-ejb-0.0.1-SNAPSHOT.jar/META-INF/MANIFEST.MF has failed
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2013-02-01 14:54:31.597
+!MESSAGE Publish Failed for module taskPro-ear
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:54:31.597
+!MESSAGE Could not delete file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/META-INF/application.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:54:31.597
+!MESSAGE Could not delete file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/resources/css/screen.css
+!SUBENTRY 1 org.jboss.ide.eclipse.archives.webtools 4 0 2013-02-01 14:54:31.597
+!MESSAGE Could not delete file /home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.jboss.ide.eclipse.as.core/jboss-as-7.1.1.Final/tempRemoteDeploy/taskPro-ear.ear/taskPro-web-0.0.1-SNAPSHOT.war/index.html
+
+!ENTRY unknown 0 0 2013-02-01 14:56:30.733
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 14:56:38.560
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:06:05.216
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:06:17.411
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 15:09:03.745
+!MESSAGE Module taskPro-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-02-01 15:09:30.329
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:10:28.605
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:10:28.880
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 15:10:29.099
+!MESSAGE Module taskPro-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-02-01 15:10:58.857
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:12:18.613
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:12:43.963
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:15:51.811
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-01 15:15:52.118
+!MESSAGE Module taskPro-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-02-01 15:15:52.367
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:17:40.687
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:19:16.064
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:19:24.594
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:19:58.372
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:21:47.956
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:21:49.194
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:22:06.523
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:23:53.194
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:25:36.611
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:27:09.255
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:28:18.601
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:28:25.536
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:29:21.610
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:29:23.359
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:32:21.999
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:32:23.436
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:32:53.951
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:32:55.294
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:33:32.329
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:33:34.008
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:34:41.557
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:36:30.543
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:36:32.038
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:38:10.670
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:38:42.286
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:38:43.767
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:40:10.686
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 15:41:09.460
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-01 16:43:58.553
+!MESSAGE OK
+!SESSION 2013-02-02 11:25:51.936 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=cs_CZ
+Framework arguments:  -product com.jboss.jbds.product.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.jboss.jbds.product.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2013-02-02 11:32:01.923
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2013-02-02 11:32:40.760
+!MESSAGE Server Startup Succeeded
+
+!ENTRY unknown 0 0 2013-02-02 12:23:41.849
+!MESSAGE OK
+
+!ENTRY unknown 0 0 2013-02-02 12:23:41.903
+!MESSAGE OK
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2013-02-02 12:23:42.113
+!MESSAGE Module taskPro-ear on jboss-as-7.1.1.Final not yet fully deployed. Waiting...
+
+!ENTRY unknown 0 0 2013-02-02 13:15:04.613
+!MESSAGE OK

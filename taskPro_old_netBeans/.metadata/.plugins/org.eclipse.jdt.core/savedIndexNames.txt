@@ -1,0 +1,22 @@
+INDEX VERSION 1.126+/home/papa/Dokumenty/NetBeansProjects/taskPro_group/.metadata/.plugins/org.eclipse.jdt.core
+534805504.index
+3388344744.index
+1159935248.index
+4184392438.index
+460152253.index
+1609788100.index
+2895934474.index
+2426646370.index
+3817651301.index
+1259291233.index
+2047723154.index
+3296295421.index
+2598035366.index
+2481678089.index
+3993739220.index
+1961235293.index
+3640646894.index
+3920940810.index
+2075580340.index
+1513993030.index
+3542660237.index

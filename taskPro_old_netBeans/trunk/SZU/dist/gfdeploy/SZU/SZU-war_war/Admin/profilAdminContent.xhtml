@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"
+    >
+
+    <div class="content2">
+
+       <h:form>   
+            <table>
+                <tr>
+                    <th><label for="name">Name</label></th>
+                    <td> <p:inputText id="name" value="#{loginBean.loggedPerson.jmeno}"></p:inputText></td> 
+                </tr>
+                <tr>
+                    <th><label for="surname">Surname</label></th>
+                    <td> <p:inputText id="surname" value="#{loginBean.loggedPerson.prijmeni}"></p:inputText></td> 
+                </tr>
+                <tr>
+                    <th><label for="imail">E-mail</label></th>
+                    <td> <p:inputText id="email" value="#{loginBean.loggedPerson.mail}"></p:inputText></td> 
+                </tr>
+                <tr>
+                    <th><label for="status">Status</label></th>
+                    <td> <p:inputText id="status" value="Admin"></p:inputText></td> 
+                </tr>
+                <tr>
+                    <th> 
+                        <p:commandButton value="Modify" action="#{loginBean.modifyLoggedUser()}" ajax="false"></p:commandButton>
+                    </th>
+                </tr>
+            </table>
+
+
+        </h:form>
+    </div>
+
+</ui:composition>

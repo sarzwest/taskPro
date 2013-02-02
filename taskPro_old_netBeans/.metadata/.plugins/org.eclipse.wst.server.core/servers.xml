@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-time="1" hostname="localhost" id="jboss-as-7.1.1.Final" name="jboss-as-7.1.1.Final" org.jboss.ide.eclipse.as.core.server.attributes.startupPollerKey="org.jboss.ide.eclipse.as.core.server.JBoss7ManagerServicePoller" org.jboss.ide.eclipse.as.core.server.deployDirectoryType="server" org.jboss.ide.eclipse.as.core.server.serverMode="local" org.jboss.ide.eclipse.as.core.server.webPort="8080" org.jboss.ide.eclipse.as.core.server.webPortAutoDetect="true" org.jboss.ide.eclipse.as.core.server.zipDeploymentsPreference="true" runtime-id="jboss-as-7.1.1.Final Runtime" server-type="org.jboss.ide.eclipse.as.71" server-type-id="org.jboss.ide.eclipse.as.71" start-timeout="450" stop-timeout="450" timestamp="46">
+    <list key="modules" value0="taskPro-ear::org.eclipse.jst.jee.server:taskPro-ear::jst.ear::6.0"/>
+  </server>
+</servers>

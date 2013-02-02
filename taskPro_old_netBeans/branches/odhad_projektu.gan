@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TaskPro" company="" webLink="http://code.google.com/p/system-zadavani-ukolu/" view-date="2011-10-05" view-index="0" gantt-divider-location="323" resource-divider-location="301" version="2.0">
+    <description><![CDATA[Vytvořte systém pro zadávání úkolů studentům, úkoly mohou být vypracovány individuálně i skupinou kontrolovanou adminem. Vícero odevzdání úkolů je možné a každý úkol může být akceptován nebo odmítnut, dále pak za něj lze získat body. Každý student může listovat statistiku bodů a úkolů. ]]></description>
+    <view zooming-state="default:0" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Jméno" width="55" order="0"/>
+        <field id="1" name="Výchozí role" width="44" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+    </calendars>
+    <tasks color="#f0f0f0">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Zpracování analytické dokumentace" color="#8cb6ce" meeting="false" start="2011-10-03" duration="3" complete="0" priority="1" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="1" name="Vize" color="#f0f0f0" meeting="false" start="2011-09-23" duration="2" complete="100" priority="2" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="Rizika" color="#f0f0f0" meeting="false" start="2011-09-21" duration="4" complete="100" priority="1" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="Zpracování návrhu DB" color="#f0f0f0" meeting="false" start="2011-09-30" duration="1" complete="100" priority="1" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="Bussines domain model, Use Case" color="#f0f0f0" meeting="false" start="2011-09-30" duration="1" complete="100" thirdDate="2011-09-04" thirdDate-constraint="0" priority="1" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" name="Návrh UI" color="#f0f0f0" meeting="false" start="2011-09-27" duration="2" complete="100" thirdDate="2011-10-02" thirdDate-constraint="0" priority="1" expand="true"/>
+        <task id="7" name="Návrh navrhové dokumentace" color="#f0f0f0" meeting="false" start="2011-10-06" duration="5" complete="100" thirdDate="2011-10-14" thirdDate-constraint="0" priority="1" expand="true"/>
+        <task id="9" name="Návrh architektury" color="#f0f0f0" meeting="false" start="2011-09-30" duration="1" complete="100" priority="1" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="Návrh podsystémů" color="#f0f0f0" meeting="false" start="2011-09-30" duration="1" complete="100" priority="1" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" name="Vytvoření UI" color="#f0f0f0" meeting="false" start="2011-10-13" duration="10" complete="30" priority="1" expand="true"/>
+        <task id="12" name="Vytvoření bussiness logiky" color="#f0f0f0" meeting="false" start="2011-10-31" duration="10" complete="0" thirdDate="2011-11-18" thirdDate-constraint="0" priority="1" expand="true"/>
+        <task id="13" name="Vytvoření perzistentní vrstvy" color="#f0f0f0" meeting="false" start="2011-11-14" duration="10" complete="10" thirdDate="2011-11-27" thirdDate-constraint="0" priority="1" expand="true"/>
+        <task id="21" name="Oponentura ProTurism" color="#f0f0f0" meeting="false" start="2011-10-14" duration="2" complete="100" priority="1" expand="true"/>
+        <task id="22" name="Testovani" color="#f0f0f0" meeting="false" start="2011-10-05" duration="47" complete="1" priority="1" expand="true"/>
+        <task id="15" name="Testování" color="#f0f0f0" meeting="false" start="2011-11-28" duration="3" complete="1" priority="1" expand="true"/>
+        <task id="16" name="Závěřečná zpráva" color="#f0f0f0" meeting="false" start="2011-12-02" duration="2" complete="0" priority="1" expand="true"/>
+        <task id="17" name="Vypracování dokumentace" color="#f0f0f0" meeting="true" start="2011-10-13" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="19" name="Odevzdání, nasazení" color="#f0f0f0" meeting="true" start="2011-12-06" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="18" name="Implementační část" color="#f0f0f0" meeting="true" start="2011-11-28" duration="1" complete="0" priority="1" expand="true"/>
+        <task id="20" name="Oponentura" color="#ccccff" meeting="false" start="2011-10-11" duration="4" complete="0" priority="1" webLink="http%3A%2F%2Fcode.google.com%2Fp%2Fproturism%2F" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Martin Tomášek" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Jan Jakeš" function="0" contacts="" phone=""/>
+        <resource id="2" name="Linh" function="0" contacts="" phone=""/>
+        <resource id="3" name="Tomáš Jiříček" function="0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="Default:1" responsible="true" load="10.0"/>
+        <allocation task-id="21" resource-id="2" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="2" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="1" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="3" function="0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="2" function="0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="75"/>
+        <displaycolumn property-id="tpd4" order="1" width="75"/>
+        <displaycolumn property-id="tpd5" order="2" width="75"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="0" name="Programator"/>
+        <role id="1" name=""/>
+    </roles>
+</project>

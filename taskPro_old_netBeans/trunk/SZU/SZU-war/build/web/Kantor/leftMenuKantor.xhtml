@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:p="http://primefaces.prime.com.tr/ui"
+    >
+
+    <div class="menu">
+
+        <h:form id="menicko">
+            <p:menu style="width:180px" type="tiered">
+                <p:submenu label="Task" >
+                    <p:menuitem value="Create task" action="createtaskKantor" update="messages" ajax="false"/> 
+                    <p:menuitem value="Edit task" action="#{taskBean.loadAllTasks()}" update="messages" ajax="false" />  
+                    <p:menuitem value="Assign task" action="#{assignTask.loadClass()}"  update="messages" ajax="false" />
+                    <p:menuitem value="Submited task" action="#{assignTask.loadToRate()}"  update="messages" ajax="false" />
+                    <p:menuitem value="All tasks" action="allKantor"  update="messages" ajax="false" />
+                </p:submenu>
+                <p:submenu label="Student" >
+                    <p:menuitem value="Check students" action="checkstudentKantor"  update="messages" ajax="false" />
+                </p:submenu>
+            </p:menu>
+        </h:form>
+    </div>
+</ui:composition>
+
