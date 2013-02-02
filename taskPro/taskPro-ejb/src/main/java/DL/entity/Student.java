@@ -45,7 +45,7 @@ public class Student extends Uzivatel implements Serializable {
     @ManyToOne
     private Skupina skupina;
     @ManyToMany(mappedBy = "m_student")
-    @JoinColumn(name="paralelkas")
+//    @JoinColumn(name="paralelkas")
     private List<Paralelka> paralelkas;
 
     public Student() {
