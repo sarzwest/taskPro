@@ -4,7 +4,7 @@
 
    <parent>
       <artifactId>taskPro</artifactId>
-      <groupId>taskPro</groupId>
+      <groupId>org.jboss.tools.example</groupId>
       <version>0.0.1-SNAPSHOT</version>
    </parent>
 
@@ -90,11 +90,6 @@
          <scope>test</scope>               
       </dependency>
 
-      <dependency>
-      	<groupId>jexcelapi</groupId>
-      	<artifactId>jxl</artifactId>
-      	<version>2.6</version>
-      </dependency>
    </dependencies>
 
    <build>

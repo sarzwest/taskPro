@@ -4,7 +4,7 @@
 
    <parent>
       <artifactId>taskPro</artifactId>
-      <groupId>taskPro</groupId>
+      <groupId>org.jboss.tools.example</groupId>
       <version>0.0.1-SNAPSHOT</version>
    </parent>
 
@@ -17,12 +17,12 @@
 
       <!-- Depend on the ejb module and war so that we can package them -->
       <dependency>
-         <groupId>taskPro</groupId>
+         <groupId>org.jboss.tools.example</groupId>
          <artifactId>taskPro-web</artifactId>
          <type>war</type>
       </dependency>
       <dependency>
-         <groupId>taskPro</groupId>
+         <groupId>org.jboss.tools.example</groupId>
          <artifactId>taskPro-ejb</artifactId>
          <type>ejb</type>
       </dependency>
