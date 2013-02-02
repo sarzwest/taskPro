@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/540/trunk/SZU/SZU-ejb/src/java/DL/manager
+END
+ObjectManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/527/trunk/SZU/SZU-ejb/src/java/DL/manager/ObjectManager.java
+END
+SkupinaD.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/390/trunk/SZU/SZU-ejb/src/java/DL/manager/SkupinaD.java
+END
+PredmetD.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/540/trunk/SZU/SZU-ejb/src/java/DL/manager/PredmetD.java
+END
+UzivatelD.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/527/trunk/SZU/SZU-ejb/src/java/DL/manager/UzivatelD.java
+END
+ZadaniD.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/390/trunk/SZU/SZU-ejb/src/java/DL/manager/ZadaniD.java
+END
+UkolD.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/532/trunk/SZU/SZU-ejb/src/java/DL/manager/UkolD.java
+END
