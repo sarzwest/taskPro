@@ -36,7 +36,7 @@ import javax.persistence.UniqueConstraint;
 @Table(name = "paralelka", uniqueConstraints=@UniqueConstraint(columnNames={"predmet_id", "kod"}))
 @NamedQueries({
     //    @NamedQuery(name = "Uzivatel.findByLogin", query = "SELECT u FROM Uzivatel u WHERE u.login = :login"),
-//    @NamedQuery(name = "Paralelka.findByKantor", query = "SELECT p FROM Paralelka p WHERE p.kantors = :kantor")
+    @NamedQuery(name = "Paralelka.findByKantor", query = "SELECT p FROM Paralelka p WHERE p.kantors = :kantor"),
 })
 public class Paralelka implements Serializable {
 

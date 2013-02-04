@@ -3,17 +3,17 @@ svn:wc:ra_dav:version-url
 V 56
 /svn/!svn/ver/527/trunk/SZU/SZU-ejb/src/java/DL/Imanager
 END
-IUzivatelD.java
-K 25
-svn:wc:ra_dav:version-url
-V 72
-/svn/!svn/ver/525/trunk/SZU/SZU-ejb/src/java/DL/Imanager/IUzivatelD.java
-END
 IZadaniD.java
 K 25
 svn:wc:ra_dav:version-url
 V 70
 /svn/!svn/ver/390/trunk/SZU/SZU-ejb/src/java/DL/Imanager/IZadaniD.java
+END
+ISkupinaD.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/390/trunk/SZU/SZU-ejb/src/java/DL/Imanager/ISkupinaD.java
 END
 IUkolD.java
 K 25
@@ -27,15 +27,15 @@ svn:wc:ra_dav:version-url
 V 76
 /svn/!svn/ver/527/trunk/SZU/SZU-ejb/src/java/DL/Imanager/IObjectManager.java
 END
-ISkupinaD.java
-K 25
-svn:wc:ra_dav:version-url
-V 71
-/svn/!svn/ver/390/trunk/SZU/SZU-ejb/src/java/DL/Imanager/ISkupinaD.java
-END
 IPredmetD.java
 K 25
 svn:wc:ra_dav:version-url
 V 71
 /svn/!svn/ver/390/trunk/SZU/SZU-ejb/src/java/DL/Imanager/IPredmetD.java
+END
+IUzivatelD.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/525/trunk/SZU/SZU-ejb/src/java/DL/Imanager/IUzivatelD.java
 END

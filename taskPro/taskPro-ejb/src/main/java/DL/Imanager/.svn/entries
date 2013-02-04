@@ -1,9 +1,9 @@
 10
 
 dir
-550
-https://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/DL/Imanager
-https://system-zadavani-ukolu.googlecode.com/svn
+541
+http://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/DL/Imanager
+http://system-zadavani-ukolu.googlecode.com/svn
 
 
 
@@ -26,81 +26,13 @@ jiratom@seznam.cz
 
 ae86dd96-92f7-ecfd-f7ca-3afd3b1e97ce
 
-IObjectManager.java
-file
-
-
-
-
-2011-12-12T23:17:29.000000Z
-c34e1082ab053a97556c482dc4338c17
-2011-12-12T23:24:28.607954Z
-527
-jiratom@seznam.cz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-430
-
-IPredmetD.java
-file
-
-
-
-
-2011-12-12T20:55:03.081954Z
-eec191fa9521a0fca451e3985dbf0ce4
-2011-11-23T12:39:38.746257Z
-390
-jiratom@seznam.cz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-632
-
 ISkupinaD.java
 file
 
 
 
 
-2011-12-12T20:55:03.077954Z
+2013-02-04T17:52:08.029235Z
 5a04b5fa3fe60d804b080e9a1b0eee9b
 2011-11-23T12:39:38.746257Z
 390
@@ -134,7 +66,7 @@ file
 
 
 
-2011-12-12T20:55:03.077954Z
+2013-02-04T17:52:08.029235Z
 ab46540951307249c141883c04ba243c
 2011-12-06T00:12:45.686942Z
 471
@@ -162,13 +94,81 @@ jiratom@seznam.cz
 
 1173
 
+IObjectManager.java
+file
+
+
+
+
+2013-02-04T17:52:08.029235Z
+c34e1082ab053a97556c482dc4338c17
+2011-12-12T23:24:28.607954Z
+527
+jiratom@seznam.cz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+430
+
+IPredmetD.java
+file
+
+
+
+
+2013-02-04T17:52:08.033235Z
+eec191fa9521a0fca451e3985dbf0ce4
+2011-11-23T12:39:38.746257Z
+390
+jiratom@seznam.cz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+632
+
 IUzivatelD.java
 file
 
 
 
 
-2011-12-12T21:57:39.000000Z
+2013-02-04T17:52:08.029235Z
 143720fa7b1a5bb9370155b76e0a0747
 2011-12-12T23:01:41.410923Z
 525
@@ -202,7 +202,7 @@ file
 
 
 
-2011-12-12T20:55:03.077954Z
+2013-02-04T17:52:08.029235Z
 3156b69aa20a1f6fc5e2609fb5ab0bd8
 2011-11-23T12:39:38.746257Z
 390

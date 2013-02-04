@@ -26,11 +26,11 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "kantor")
 @DiscriminatorValue(value = "kantor")
-//@PrimaryKeyJoinColumn(name = "id")
-//@NamedQueries({
-//    @NamedQuery(name = "Kantor.findByZadani", query = "SELECT k FROM Kantor k WHERE k.m_Zadani = :m_Zadani"),
-//    @NamedQuery(name = "Kantor.all", query = "SELECT k FROM Kantor k")
-//})
+@PrimaryKeyJoinColumn(name = "id")
+@NamedQueries({
+    @NamedQuery(name = "Kantor.findByZadani", query = "SELECT k FROM Kantor k WHERE k.m_Zadani = :m_Zadani"),
+    @NamedQuery(name = "Kantor.all", query = "SELECT k FROM Kantor k")
+})
 public class Kantor extends Uzivatel implements Serializable {
 
     private static final long serialVersionUID = 1L;

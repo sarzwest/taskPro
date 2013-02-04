@@ -1,9 +1,9 @@
 10
 
 dir
-550
-https://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/DL/manager
-https://system-zadavani-ukolu.googlecode.com/svn
+541
+http://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/DL/manager
+http://system-zadavani-ukolu.googlecode.com/svn
 
 
 
@@ -26,16 +26,16 @@ jiratom@seznam.cz
 
 ae86dd96-92f7-ecfd-f7ca-3afd3b1e97ce
 
-ObjectManager.java
+ZadaniD.java
 file
 
 
 
 
-2011-12-12T23:21:58.000000Z
-0ca0d6778b83be95bd1668d1347deb5a
-2011-12-12T23:24:28.607954Z
-527
+2013-02-04T17:52:08.081235Z
+c6782da126174397d6c25033b13ef28a
+2011-11-23T12:39:38.746257Z
+390
 jiratom@seznam.cz
 
 
@@ -58,41 +58,7 @@ jiratom@seznam.cz
 
 
 
-2172
-
-PredmetD.java
-file
-
-
-
-
-2011-12-14T19:37:24.000000Z
-adcdfd69ae06341971e8731b5ba52698
-2011-12-14T20:01:47.379093Z
-540
-jiratom@seznam.cz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2860
+1284
 
 SkupinaD.java
 file
@@ -100,7 +66,7 @@ file
 
 
 
-2011-12-12T20:55:03.405956Z
+2013-02-04T17:52:08.085235Z
 3b34886bf2d8cc2d28ceb4b92acb5d82
 2011-11-23T12:39:38.746257Z
 390
@@ -134,7 +100,7 @@ file
 
 
 
-2011-12-13T00:14:50.000000Z
+2013-02-04T17:52:08.085235Z
 0c53210e0d78929f2d777dad9344c335
 2011-12-13T00:19:19.773515Z
 532
@@ -162,13 +128,81 @@ jiratom@seznam.cz
 
 2713
 
+ObjectManager.java
+file
+
+
+
+
+2013-02-04T17:52:08.081235Z
+0ca0d6778b83be95bd1668d1347deb5a
+2011-12-12T23:24:28.607954Z
+527
+jiratom@seznam.cz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2172
+
+PredmetD.java
+file
+
+
+
+
+2013-02-04T17:52:08.081235Z
+adcdfd69ae06341971e8731b5ba52698
+2011-12-14T20:01:47.379093Z
+540
+jiratom@seznam.cz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2860
+
 UzivatelD.java
 file
 
 
 
 
-2011-12-12T23:23:57.000000Z
+2013-02-04T17:52:08.081235Z
 2f157ee720ace5a15bfce7705a98e08e
 2011-12-12T23:24:28.607954Z
 527
@@ -195,38 +229,4 @@ jiratom@seznam.cz
 
 
 3385
-
-ZadaniD.java
-file
-
-
-
-
-2011-12-12T20:55:03.405956Z
-c6782da126174397d6c25033b13ef28a
-2011-11-23T12:39:38.746257Z
-390
-jiratom@seznam.cz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1284
 

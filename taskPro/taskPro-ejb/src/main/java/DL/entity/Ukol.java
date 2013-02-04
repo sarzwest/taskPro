@@ -69,8 +69,6 @@ public class Ukol implements Serializable {
     @ManyToOne
     private Skupina skupina;
     @OneToMany(mappedBy = "ukol", cascade= CascadeType.ALL, fetch= FetchType.LAZY)
-  //bi-directional many-to-one association to Ukolsoubor
-//  	@OneToMany(mappedBy="ukol")
     private List<UkolSoubor> m_ukolSoubor;
 
     /**
