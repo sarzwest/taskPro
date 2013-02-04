@@ -25,7 +25,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import javax.xml.registry.infomodel.User;
 
-/**
+/** 
  * Beana, ktera si udrzuje informace o aktualne prihlasem uzivateli. Zprostredkovava
  * logout z frameworku JAAS
  * @author Tom

@@ -20,8 +20,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-//import jxl.*;
-//import jxl.read.biff.BiffException;
+import jxl.*;
+import jxl.read.biff.BiffException;
 /**
  * @author papa
  * @author Martin Tomasek
@@ -83,41 +83,41 @@ public class UzivatelB implements IUzivatelB {
     
     @Override
     public String readExcel(File f){
-//        Workbook workbook=null;
-//        String status="ok";
-//        try {
-//            workbook= Workbook.getWorkbook(f);
-//            Sheet sheet=workbook.getSheet(0);
-//            //prvni je slupec druhy je radek
-//            int radek=0;
-//            while(true){
-//                Uzivatel newUser=new Uzivatel();
-//                addUzivatel(sheet.getCell(0, radek).getContents(),
-//                        sheet.getCell(1,radek).getContents(),
-//                        sheet.getCell(2,radek).getContents(),sheet.getCell(3,radek).getContents(),
-//                        sheet.getCell(4,radek).getContents(),
-//                        sheet.getCell(5,radek).getContents());
-//               
-//            radek++;
-//            }
-//            
-//            
-//           
-//        } catch (IOException ex) {
-//            Logger.getLogger(UzivatelB.class.getName()).log(Level.SEVERE, null, ex);
-//        } catch (BiffException ex) {
-//            Logger.getLogger(UzivatelB.class.getName()).log(Level.SEVERE, null, ex);
-//        } catch(JXLException e){
-//            status=null;
-//             Logger.getLogger(UzivatelB.class.getName()).log(Level.SEVERE, null, e);
-//        } catch(Exception e){
-//            status="unknow";
-//        }
-//        finally {
-//           workbook.close();
-//            return status;
-//        }
-    	return null;
+        Workbook workbook=null;
+        String status="ok";
+        try {
+            workbook= Workbook.getWorkbook(f);
+            Sheet sheet=workbook.getSheet(0);
+            //prvni je slupec druhy je radek
+            int radek=0;
+            while(true){
+                Uzivatel newUser=new Uzivatel();
+                addUzivatel(sheet.getCell(0, radek).getContents(),
+                        sheet.getCell(1,radek).getContents(),
+                        sheet.getCell(2,radek).getContents(),sheet.getCell(3,radek).getContents(),
+                        sheet.getCell(4,radek).getContents(),
+                        sheet.getCell(5,radek).getContents());
+               
+            radek++;
+            }
+            
+            
+           
+        } catch (IOException ex) {
+            Logger.getLogger(UzivatelB.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (BiffException ex) {
+            Logger.getLogger(UzivatelB.class.getName()).log(Level.SEVERE, null, ex);
+        } catch(JXLException e){
+            status=null;
+             Logger.getLogger(UzivatelB.class.getName()).log(Level.SEVERE, null, e);
+        } catch(Exception e){
+            status="unknow";
+        }
+        finally {
+           workbook.close();
+            return status;
+        }
+//    	return null;
         
     }
     /**

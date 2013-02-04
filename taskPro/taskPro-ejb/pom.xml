@@ -90,6 +90,11 @@
          <scope>test</scope>               
       </dependency>
 
+      <dependency>
+      	<groupId>jexcelapi</groupId>
+      	<artifactId>jxl</artifactId>
+      	<version>2.6</version>
+      </dependency>
    </dependencies>
 
    <build>
