@@ -1,9 +1,9 @@
 10
 
 dir
-550
-https://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/DL
-https://system-zadavani-ukolu.googlecode.com/svn
+541
+http://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/DL
+http://system-zadavani-ukolu.googlecode.com/svn
 
 
 
@@ -26,12 +26,12 @@ jiratom@seznam.cz
 
 ae86dd96-92f7-ecfd-f7ca-3afd3b1e97ce
 
-Imanager
+manager
 dir
 
 entity
 dir
 
-manager
+Imanager
 dir
 

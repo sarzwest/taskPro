@@ -1,15 +1,15 @@
 10
 
 dir
-550
-https://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-war/src/java/userBean
-https://system-zadavani-ukolu.googlecode.com/svn
+541
+http://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-war/src/java/userBean
+http://system-zadavani-ukolu.googlecode.com/svn
 
 
 
-2011-12-15T16:19:50.824759Z
-550
-martin@toms-cz.com
+2011-12-14T20:02:08.912281Z
+541
+jiratom@seznam.cz
 
 
 
@@ -26,20 +26,54 @@ martin@toms-cz.com
 
 ae86dd96-92f7-ecfd-f7ca-3afd3b1e97ce
 
+CheckStudentBean.java
+file
+
+
+
+
+2013-02-04T17:52:10.901249Z
+d54b50b430b931e6b5dcec2dd4d2c1f6
+2011-12-14T20:02:08.912281Z
+541
+jiratom@seznam.cz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2353
+
 CheckKantoriBean.java
 file
 
 
 
 
-2011-12-16T17:00:01.000000Z
-474942b68238d38c0c3a05c381e371d7
-2011-12-15T14:56:49.264744Z
-548
-martin@toms-cz.com
+2013-02-04T17:52:10.901249Z
+4665aa2d39c8c01d1b43c3981e3209b3
+2011-12-04T19:46:14.068670Z
+461
+thegamees@email.cz
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -60,81 +94,13 @@ svn:special svn:externals svn:needs-lock
 
 2233
 
-CheckStudentBean.java
-file
-
-
-
-
-2011-12-16T17:00:01.000000Z
-9b4fa3a316f8e1c52ab4bc7346cbfff3
-2011-12-15T16:19:50.824759Z
-550
-martin@toms-cz.com
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2544
-
-FileBean.java
-file
-
-
-
-
-2011-12-16T17:00:01.000000Z
-4e1126141d6f5388861be5e3046bcc72
-2011-12-15T16:19:50.824759Z
-550
-martin@toms-cz.com
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3566
-
 UserBean.java
 file
 
 
 
 
-2011-12-12T20:58:00.230833Z
+2013-02-04T17:52:10.897249Z
 c8e43e07f105dd8ce5710f182e0b661a
 2011-11-25T14:44:44.795562Z
 416
@@ -161,4 +127,38 @@ martin@toms-cz.com
 
 
 3106
+
+FileBean.java
+file
+
+
+
+
+2013-02-04T17:52:10.901249Z
+cb66560d8db0ed50d750f22b935ec637
+2011-12-08T18:44:43.766582Z
+505
+martin@toms-cz.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1962
 

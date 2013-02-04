@@ -3,6 +3,12 @@ svn:wc:ra_dav:version-url
 V 54
 /svn/!svn/ver/533/trunk/SZU/SZU-war/src/java/taskBeans
 END
+taskBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/523/trunk/SZU/SZU-war/src/java/taskBeans/taskBean.java
+END
 submittedTaskBean.java
 K 25
 svn:wc:ra_dav:version-url
@@ -15,23 +21,17 @@ svn:wc:ra_dav:version-url
 V 71
 /svn/!svn/ver/508/trunk/SZU/SZU-war/src/java/taskBeans/studentTask.java
 END
-kantorsTask.java
-K 25
-svn:wc:ra_dav:version-url
-V 71
-/svn/!svn/ver/508/trunk/SZU/SZU-war/src/java/taskBeans/kantorsTask.java
-END
 allTaskBean.java
 K 25
 svn:wc:ra_dav:version-url
 V 71
 /svn/!svn/ver/533/trunk/SZU/SZU-war/src/java/taskBeans/allTaskBean.java
 END
-taskBean.java
+kantorsTask.java
 K 25
 svn:wc:ra_dav:version-url
-V 68
-/svn/!svn/ver/523/trunk/SZU/SZU-war/src/java/taskBeans/taskBean.java
+V 71
+/svn/!svn/ver/508/trunk/SZU/SZU-war/src/java/taskBeans/kantorsTask.java
 END
 AssignTask.java
 K 25

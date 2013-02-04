@@ -36,6 +36,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.faces.model.SelectItem;
+import javax.inject.Inject;
 import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.StreamedContent;
 
@@ -44,7 +45,7 @@ import org.primefaces.model.StreamedContent;
  * @author Lurtz
  */
 @ManagedBean(name = "allTaskBean")
-@SessionScoped
+@RequestScoped
 public class allTaskBean {
     UkolB ukolB;
     UzivatelB userB;
@@ -53,7 +54,8 @@ public class allTaskBean {
     List<Ukol> allTask;
     Ukol vybrany;
 
-    @EJB
+    //    @EJB
+    @Inject
     ApplicationLocal app;
     
     @PostConstruct

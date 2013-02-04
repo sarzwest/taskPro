@@ -19,6 +19,7 @@ import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+import javax.inject.Inject;
 
 /**
  *
@@ -50,7 +51,8 @@ public class ParalelkaBean implements Serializable {
     String cssErr;
     
     
-    @EJB
+//    @EJB
+    @Inject
     ApplicationLocal app;
 
     @PostConstruct

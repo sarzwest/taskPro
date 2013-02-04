@@ -1,9 +1,9 @@
 10
 
 dir
-550
-https://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/BL/Support
-https://system-zadavani-ukolu.googlecode.com/svn
+541
+http://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/BL/Support
+http://system-zadavani-ukolu.googlecode.com/svn
 
 
 
@@ -26,47 +26,13 @@ martin@toms-cz.com
 
 ae86dd96-92f7-ecfd-f7ca-3afd3b1e97ce
 
-ConvertB.java
-file
-
-
-
-
-2011-12-12T20:55:05.125965Z
-cf8d46d004d7c6edcfe7f6c248c10a71
-2011-11-30T00:04:52.514172Z
-438
-martin@toms-cz.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1797
-
 MaintanceB.java
 file
 
 
 
 
-2011-12-12T20:55:05.125965Z
+2013-02-04T17:52:08.389237Z
 2ea34acaf64a87436ed8075b3490b772
 2011-11-22T17:48:44.974483Z
 364
@@ -93,4 +59,38 @@ martin@toms-cz.com
 
 
 452
+
+ConvertB.java
+file
+
+
+
+
+2013-02-04T17:52:08.393237Z
+cf8d46d004d7c6edcfe7f6c248c10a71
+2011-11-30T00:04:52.514172Z
+438
+martin@toms-cz.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1797
 

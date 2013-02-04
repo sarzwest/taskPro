@@ -38,6 +38,7 @@ import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.faces.el.ValueBinding;
 import javax.faces.model.SelectItem;
+import javax.inject.Inject;
 import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.StreamedContent;
 /**
@@ -50,7 +51,8 @@ public class kantorsTask {
     UkolB ukolB;
     UzivatelB userB;
       private LoginBean loginBean;
-     @EJB
+     //    @EJB
+    @Inject
     ApplicationLocal app;
 
     public List<Ukol> getAllTask() {

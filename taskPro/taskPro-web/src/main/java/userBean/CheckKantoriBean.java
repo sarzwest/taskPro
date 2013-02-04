@@ -18,6 +18,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
+import javax.inject.Inject;
 
 /**
  *
@@ -35,7 +36,8 @@ public class CheckKantoriBean implements Serializable {
     
     
     
-    @EJB
+    //    @EJB
+    @Inject
     ApplicationLocal app;
 
     @PostConstruct

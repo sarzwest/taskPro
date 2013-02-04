@@ -13,84 +13,76 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.Table;
 
 /**
- * 
+ *
  * @author papa
  */
 @Entity
-@Table(name="UKOLSOUBOR")
 public class UkolSoubor implements Serializable {
-	private static final long serialVersionUID = 1L;
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
-	@Basic(fetch = FetchType.LAZY)
-	@Column(name = "file", nullable = false)
-	private File file;
-	@Column(name = "description")
-	private String description;
-	// bi-directional many-to-one association to Ukol
-	@ManyToOne
-	@JoinColumn(name = "UKOL_id")
-	private Ukol ukol;
+    private static final long serialVersionUID = 1L;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+    @Basic(fetch= FetchType.LAZY)
+    @Column(name="file", nullable=false)
+    private File file;
+    @Column(name="description")
+    private String description;
+    private Ukol ukol;
 
-	public Long getId() {
-		return id;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	public void setDescription(String description) {
-		this.description = description;
-	}
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
-	public void setFile(File file) {
-		this.file = file;
-	}
+    public void setFile(File file) {
+        this.file = file;
+    }
 
-	public void setUkol(Ukol ukol) {
-		this.ukol = ukol;
-	}
+    public void setUkol(Ukol ukol) {
+        this.ukol = ukol;
+    }
 
-	public Ukol getUkol() {
-		return ukol;
-	}
+    public Ukol getUkol() {
+        return ukol;
+    }
 
-	public String getDescription() {
-		return description;
-	}
+    public String getDescription() {
+        return description;
+    }
 
-	public File getFile() {
-		return file;
-	}
+    public File getFile() {
+        return file;
+    }
 
-	@Override
-	public int hashCode() {
-		int hash = 0;
-		hash += (id != null ? id.hashCode() : 0);
-		return hash;
-	}
+    @Override
+    public int hashCode() {
+        int hash = 0;
+        hash += (id != null ? id.hashCode() : 0);
+        return hash;
+    }
 
-	@Override
-	public boolean equals(Object object) {
-		// TODO: Warning - this method won't work in the case the id fields are
-		// not set
-		if (!(object instanceof UkolSoubor)) {
-			return false;
-		}
-		UkolSoubor other = (UkolSoubor) object;
-		if ((this.id == null && other.id != null)
-				|| (this.id != null && !this.id.equals(other.id))) {
-			return false;
-		}
-		return true;
-	}
+    @Override
+    public boolean equals(Object object) {
+        // TODO: Warning - this method won't work in the case the id fields are not set
+        if (!(object instanceof UkolSoubor)) {
+            return false;
+        }
+        UkolSoubor other = (UkolSoubor) object;
+        if ((this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id))) {
+            return false;
+        }
+        return true;
+    }
 
-	@Override
-	public String toString() {
-		return "DL.entity.UkolSoubor[ id=" + id + " ]";
-	}
-
+    @Override
+    public String toString() {
+        return "DL.entity.UkolSoubor[ id=" + id + " ]";
+    }
+    
 }

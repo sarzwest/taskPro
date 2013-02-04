@@ -20,12 +20,13 @@ import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
+import javax.inject.Inject;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import javax.xml.registry.infomodel.User;
 
-/** 
+/**
  * Beana, ktera si udrzuje informace o aktualne prihlasem uzivateli. Zprostredkovava
  * logout z frameworku JAAS
  * @author Tom
@@ -60,7 +61,8 @@ public class LoginBean implements Serializable {
             return "error";
         }
     }
-     @EJB
+//     @EJB
+        @Inject
     ApplicationLocal app;
 
     @PostConstruct
