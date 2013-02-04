@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 58
-/svn/!svn/ver/549/trunk/SZU/SZU-ejb/src/java/BL/IBussiness
+/svn/!svn/ver/504/trunk/SZU/SZU-ejb/src/java/BL/IBussiness
+END
+IZadaniB.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/449/trunk/SZU/SZU-ejb/src/java/BL/IBussiness/IZadaniB.java
 END
 Application.java
 K 25
@@ -15,30 +21,6 @@ svn:wc:ra_dav:version-url
 V 74
 /svn/!svn/ver/364/trunk/SZU/SZU-ejb/src/java/BL/IBussiness/IParalelka.java
 END
-IPredmetB.java
-K 25
-svn:wc:ra_dav:version-url
-V 73
-/svn/!svn/ver/364/trunk/SZU/SZU-ejb/src/java/BL/IBussiness/IPredmetB.java
-END
-IUzivatelB.java
-K 25
-svn:wc:ra_dav:version-url
-V 74
-/svn/!svn/ver/549/trunk/SZU/SZU-ejb/src/java/BL/IBussiness/IUzivatelB.java
-END
-ApplicationLocal.java
-K 25
-svn:wc:ra_dav:version-url
-V 80
-/svn/!svn/ver/364/trunk/SZU/SZU-ejb/src/java/BL/IBussiness/ApplicationLocal.java
-END
-IZadaniB.java
-K 25
-svn:wc:ra_dav:version-url
-V 72
-/svn/!svn/ver/449/trunk/SZU/SZU-ejb/src/java/BL/IBussiness/IZadaniB.java
-END
 IUkolB.java
 K 25
 svn:wc:ra_dav:version-url
@@ -50,4 +32,22 @@ K 25
 svn:wc:ra_dav:version-url
 V 73
 /svn/!svn/ver/364/trunk/SZU/SZU-ejb/src/java/BL/IBussiness/ISkupinaB.java
+END
+IPredmetB.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/364/trunk/SZU/SZU-ejb/src/java/BL/IBussiness/IPredmetB.java
+END
+IUzivatelB.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/504/trunk/SZU/SZU-ejb/src/java/BL/IBussiness/IUzivatelB.java
+END
+ApplicationLocal.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/364/trunk/SZU/SZU-ejb/src/java/BL/IBussiness/ApplicationLocal.java
 END

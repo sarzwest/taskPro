@@ -45,6 +45,7 @@ import java.util.Iterator;
 import javax.enterprise.inject.spi.Bean;
 import javax.faces.application.Application;
 import javax.faces.el.ValueBinding;
+import javax.inject.Inject;
 
 /**
  * Trida slouzi k podpore view studenta, umi zobrazit jeho ukoly, jeho odevzdane
@@ -78,7 +79,8 @@ public class studentTask implements Serializable {
         this.selectedTask = selectedTask;
     }
     Ukol selectedTask;
-    @EJB
+    //    @EJB
+    @Inject
     ApplicationLocal app;
 
     @PostConstruct

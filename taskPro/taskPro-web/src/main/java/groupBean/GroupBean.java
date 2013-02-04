@@ -15,6 +15,7 @@ import DL.entity.Predmet;
 import DL.entity.Student;
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import javax.annotation.PostConstruct;
@@ -24,6 +25,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 import javax.faces.event.ActionEvent;
+import javax.inject.Inject;
 import org.primefaces.event.NodeSelectEvent;
 import org.primefaces.model.DefaultTreeNode;
 import org.primefaces.model.TreeNode;
@@ -52,7 +54,8 @@ public class GroupBean implements Serializable {
     List<Student> studenti;
     ISkupinaB skupinaB;
     String groupName;
-    @EJB
+//    @EJB
+    @Inject
     ApplicationLocal app;
 
     @PostConstruct
@@ -90,10 +93,8 @@ public class GroupBean implements Serializable {
     public void uloz() {
         err = "Nová skupina přidána do databaze.";
         cssErr = "errAddOK";
-        
-        for(int i = 0 ; i < vybraniStudenti.length ; i++){
-            studentiChosen.add(vybraniStudenti[i]);
-        }
+        studentiChosen = new ArrayList<Student>();
+        studentiChosen.addAll(Arrays.asList(vybraniStudenti));
 
         try{ 
             skupinaB.createGroup(paralelkaChosen, studentiChosen, groupName);

@@ -9,7 +9,6 @@ import DL.Imanager.IUkolD;
 import DL.Imanager.IUzivatelD;
 import DL.Imanager.IZadaniD;
 import DL.entity.Admin;
-import DL.entity.Kantor;
 import DL.entity.Student;
 import DL.entity.Ukol;
 import DL.entity.UkolSoubor;
@@ -20,6 +19,7 @@ import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+import javax.inject.Inject;
 
 /**
  *
@@ -47,7 +47,8 @@ public class testBean implements Serializable {
     public void setSomething(String something) {
         this.something = something;
     }
-    @EJB
+//    @EJB
+    @Inject
     ApplicationLocal app;
 
     @PostConstruct
@@ -64,9 +65,8 @@ public class testBean implements Serializable {
 
     public void callPersist() {
         something = "a";
-        Kantor k = (Kantor) uzivD.findByLogin("teach");
-        List<Ukol> ukoly = ukolD.findByStavAndKantor(Ukol.Stav.PRIJATY, k);
-        System.err.println(ukoly);
+        UkolSoubor soubor = ukolD.findByStav(Ukol.Stav.ODEVZDANY).get(0).getM_ukolSoubor().get(0);
+        soubor = ukolD.nahrajSoubor(soubor);
     }
 
     public void createAdmin() {

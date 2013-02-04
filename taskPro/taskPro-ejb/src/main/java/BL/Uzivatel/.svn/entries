@@ -1,14 +1,14 @@
 10
 
 dir
-550
-https://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/BL/Uzivatel
-https://system-zadavani-ukolu.googlecode.com/svn
+541
+http://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/BL/Uzivatel
+http://system-zadavani-ukolu.googlecode.com/svn
 
 
 
-2011-12-15T16:17:35.637537Z
-549
+2011-12-12T23:36:11.667889Z
+529
 martin@toms-cz.com
 
 
@@ -32,14 +32,13 @@ file
 
 
 
-2011-12-16T16:59:59.000000Z
-bab1149009143025ee8ba253d4911828
-2011-12-15T16:17:35.637537Z
-549
+2013-02-04T17:52:08.237236Z
+596850aceef2d0e66cf1977181bea915
+2011-12-12T23:36:11.667889Z
+529
 martin@toms-cz.com
 
 
-svn:special svn:externals svn:needs-lock
 
 
 
@@ -58,5 +57,6 @@ svn:special svn:externals svn:needs-lock
 
 
 
-9020
+
+7599
 

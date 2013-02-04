@@ -1,9 +1,9 @@
 10
 
 dir
-550
-https://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-war/src/java/subjectBean
-https://system-zadavani-ukolu.googlecode.com/svn
+541
+http://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-war/src/java/subjectBean
+http://system-zadavani-ukolu.googlecode.com/svn
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-12-12T20:58:00.254833Z
+2013-02-04T17:52:10.961249Z
 dd967e587dd8461df104c8f06eaae010
 2011-11-23T15:53:44.799007Z
 405
@@ -60,47 +60,13 @@ thegamees@email.cz
 
 4330
 
-SubjectBean.java
-file
-
-
-
-
-2011-12-12T20:58:00.254833Z
-7ed6278c729a6e5c419584dc4938eea0
-2011-11-23T15:53:44.799007Z
-405
-thegamees@email.cz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2139
-
 TreeSubjectBean.java
 file
 
 
 
 
-2011-12-12T20:58:00.254833Z
+2013-02-04T17:52:10.961249Z
 7f780a6ae1039ae9e0408779a62e9d9f
 2011-11-23T12:08:48.071547Z
 386
@@ -127,4 +93,38 @@ thegamees@email.cz
 
 
 3037
+
+SubjectBean.java
+file
+
+
+
+
+2013-02-04T17:52:10.961249Z
+7ed6278c729a6e5c419584dc4938eea0
+2011-11-23T15:53:44.799007Z
+405
+thegamees@email.cz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2139
 

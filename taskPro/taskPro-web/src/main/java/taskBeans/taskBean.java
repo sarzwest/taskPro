@@ -47,6 +47,7 @@ import java.util.Date;
 import java.util.Iterator;
 import javax.enterprise.inject.spi.Bean;
 import javax.faces.application.Application;
+import javax.inject.Inject;
 
 /**
  *
@@ -81,7 +82,8 @@ public class taskBean {
     String err;
     String cssErr;
     
-    @EJB
+    //    @EJB
+    @Inject
     ApplicationLocal app;
     @PostConstruct
     public void init(){

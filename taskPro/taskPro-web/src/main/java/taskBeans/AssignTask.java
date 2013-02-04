@@ -34,8 +34,10 @@ import javax.ejb.EJB;
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.faces.bean.ViewScoped;
 import javax.faces.context.FacesContext;
 import javax.faces.model.SelectItem;
+import javax.inject.Inject;
 import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.StreamedContent;
 
@@ -195,7 +197,8 @@ public class AssignTask {
     List<Ukol> finalTaskList;
     List<Zadani> kantorsTask;
     Zadani[] taskChosen;
-    @EJB
+    //    @EJB
+    @Inject
     ApplicationLocal app;
     UkolB taskB;
     

@@ -14,6 +14,7 @@ import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+import javax.inject.Inject;
 
 /**
  * Beana pro přidávání nových studenů.
@@ -50,7 +51,8 @@ public class UserBean implements Serializable {
     /**instance v bussiness vrstve starajici se o uzivatele*/
     IUzivatelB uzivatelB;
     
-    @EJB
+    //    @EJB
+    @Inject
     ApplicationLocal app;
 
     @PostConstruct
@@ -71,7 +73,7 @@ public class UserBean implements Serializable {
      * 
      */
     public void pridejUzivatele() {
-        err = "Student přidán do databaze";
+        err = "Uživatel přidán do databaze";
         cssErr = "errAddUserOK";
         try {
             uzivatelB.addUzivatel(login, heslo, jmeno, prijmeni, email, status);    

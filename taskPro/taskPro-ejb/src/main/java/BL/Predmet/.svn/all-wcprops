@@ -3,15 +3,15 @@ svn:wc:ra_dav:version-url
 V 55
 /svn/!svn/ver/380/trunk/SZU/SZU-ejb/src/java/BL/Predmet
 END
-PredmetB.java
-K 25
-svn:wc:ra_dav:version-url
-V 69
-/svn/!svn/ver/380/trunk/SZU/SZU-ejb/src/java/BL/Predmet/PredmetB.java
-END
 SkupinaB.java
 K 25
 svn:wc:ra_dav:version-url
 V 69
 /svn/!svn/ver/380/trunk/SZU/SZU-ejb/src/java/BL/Predmet/SkupinaB.java
+END
+PredmetB.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/380/trunk/SZU/SZU-ejb/src/java/BL/Predmet/PredmetB.java
 END

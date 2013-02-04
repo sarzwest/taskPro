@@ -7,7 +7,6 @@ package userBean;
 import BL.IBussiness.ApplicationLocal;
 import BL.IBussiness.IUzivatelB;
 import BL.Uzivatel.UzivatelB;
-import DL.entity.Admin;
 import DL.entity.Kantor;
 import DL.entity.Student;
 import DL.entity.Uzivatel;
@@ -19,6 +18,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
+import javax.inject.Inject;
 
 /**
  *
@@ -38,7 +38,8 @@ public class CheckStudentBean {
     IUzivatelB uzivatelB;
     
     
-    @EJB
+    //    @EJB
+    @Inject
     ApplicationLocal app;
 
 
@@ -46,16 +47,9 @@ public class CheckStudentBean {
     @PostConstruct
     public void init(){
         uzivatelB = UzivatelB.getInstance(app);
-        Uzivatel loggedUser=uzivatelB.findUserByLogin(getPrincipal().getName());
-        if(loggedUser instanceof Admin){
-            studenti=uzivatelB.getStudentyAll();
-        }
-        else if(loggedUser instanceof Kantor){
-        Kantor loggedKantor=(Kantor) loggedUser;
-        studenti=uzivatelB.getStudenstByKantor(loggedKantor);  
-        }
-      
-        //
+        // Kantor loggedKantor=(Kantor) uzivatelB.findUserByLogin(getPrincipal().getName());
+        //studenti=uzivatelB.getStudenstByKantor(loggedKantor);
+        studenti=uzivatelB.getStudentyAll();
         
     }
      /**

@@ -36,6 +36,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.faces.model.SelectItem;
+import javax.inject.Inject;
 import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.StreamedContent;
 
@@ -53,7 +54,8 @@ public class submittedTaskBean {
     List<Ukol> submittedTask;
     Ukol vybrany;
     SelectItem[] vybraneTasky;
-    @EJB
+    //    @EJB
+    @Inject
     ApplicationLocal app;
 
     @PostConstruct

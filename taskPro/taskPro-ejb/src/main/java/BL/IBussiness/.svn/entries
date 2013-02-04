@@ -1,14 +1,14 @@
 10
 
 dir
-550
-https://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/BL/IBussiness
-https://system-zadavani-ukolu.googlecode.com/svn
+541
+http://system-zadavani-ukolu.googlecode.com/svn/trunk/SZU/SZU-ejb/src/java/BL/IBussiness
+http://system-zadavani-ukolu.googlecode.com/svn
 
 
 
-2011-12-15T16:17:35.637537Z
-549
+2011-12-08T18:44:30.881697Z
+504
 martin@toms-cz.com
 
 
@@ -26,115 +26,13 @@ martin@toms-cz.com
 
 ae86dd96-92f7-ecfd-f7ca-3afd3b1e97ce
 
-Application.java
-file
-
-
-
-
-2011-12-12T20:55:04.001959Z
-7173f1cfdbca698fa903f51790110b88
-2011-11-22T17:48:44.974483Z
-364
-martin@toms-cz.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1375
-
-ApplicationLocal.java
-file
-
-
-
-
-2011-12-12T20:55:04.001959Z
-4116eb8f790a2e852b12bb438c0785ac
-2011-11-22T17:48:44.974483Z
-364
-martin@toms-cz.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1440
-
-IParalelka.java
-file
-
-
-
-
-2011-12-12T20:55:04.001959Z
-7ba0843efd8b4275e8e8e5076a091e7a
-2011-11-22T17:48:44.974483Z
-364
-martin@toms-cz.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-319
-
 IPredmetB.java
 file
 
 
 
 
-2011-12-12T20:55:04.001959Z
+2013-02-04T17:52:08.333236Z
 e6dd0318aaae338088dea9645a94a214
 2011-11-22T17:48:44.974483Z
 364
@@ -162,14 +60,48 @@ martin@toms-cz.com
 
 2031
 
-ISkupinaB.java
+IUzivatelB.java
 file
 
 
 
 
-2011-12-12T20:55:04.001959Z
-4c6b236e75c8236d5cb435eccc4e3e29
+2013-02-04T17:52:08.333236Z
+2f9a04ae102c54b61e0104fa0e0378f8
+2011-12-08T18:44:30.881697Z
+504
+martin@toms-cz.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3042
+
+ApplicationLocal.java
+file
+
+
+
+
+2013-02-04T17:52:08.337236Z
+4116eb8f790a2e852b12bb438c0785ac
 2011-11-22T17:48:44.974483Z
 364
 martin@toms-cz.com
@@ -194,7 +126,109 @@ martin@toms-cz.com
 
 
 
-726
+1440
+
+IZadaniB.java
+file
+
+
+
+
+2013-02-04T17:52:08.325236Z
+1df4b23578819893df5b411f6a7917d5
+2011-12-01T18:54:04.521011Z
+449
+martin@toms-cz.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1623
+
+Application.java
+file
+
+
+
+
+2013-02-04T17:52:08.325236Z
+7173f1cfdbca698fa903f51790110b88
+2011-11-22T17:48:44.974483Z
+364
+martin@toms-cz.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1375
+
+IParalelka.java
+file
+
+
+
+
+2013-02-04T17:52:08.329236Z
+7ba0843efd8b4275e8e8e5076a091e7a
+2011-11-22T17:48:44.974483Z
+364
+martin@toms-cz.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+319
 
 IUkolB.java
 file
@@ -202,7 +236,7 @@ file
 
 
 
-2011-12-12T20:55:04.001959Z
+2013-02-04T17:52:08.329236Z
 e4ccf93fdaa93c30e7d238a6bbdac8d2
 2011-12-08T13:57:22.426620Z
 499
@@ -230,50 +264,16 @@ martin@toms-cz.com
 
 3798
 
-IUzivatelB.java
+ISkupinaB.java
 file
 
 
 
 
-2011-12-16T16:59:59.000000Z
-a0a5b79c0ab5cc2efb1c16ae971fe657
-2011-12-15T16:17:35.637537Z
-549
-martin@toms-cz.com
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3086
-
-IZadaniB.java
-file
-
-
-
-
-2011-12-12T20:55:03.997959Z
-1df4b23578819893df5b411f6a7917d5
-2011-12-01T18:54:04.521011Z
-449
+2013-02-04T17:52:08.333236Z
+4c6b236e75c8236d5cb435eccc4e3e29
+2011-11-22T17:48:44.974483Z
+364
 martin@toms-cz.com
 
 
@@ -296,5 +296,5 @@ martin@toms-cz.com
 
 
 
-1623
+726
 

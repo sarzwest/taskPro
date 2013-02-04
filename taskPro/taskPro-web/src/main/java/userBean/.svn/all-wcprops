@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 53
-/svn/!svn/ver/550/trunk/SZU/SZU-war/src/java/userBean
+/svn/!svn/ver/541/trunk/SZU/SZU-war/src/java/userBean
 END
-FileBean.java
+CheckKantoriBean.java
 K 25
 svn:wc:ra_dav:version-url
-V 67
-/svn/!svn/ver/550/trunk/SZU/SZU-war/src/java/userBean/FileBean.java
+V 75
+/svn/!svn/ver/461/trunk/SZU/SZU-war/src/java/userBean/CheckKantoriBean.java
 END
 UserBean.java
 K 25
@@ -15,15 +15,15 @@ svn:wc:ra_dav:version-url
 V 67
 /svn/!svn/ver/416/trunk/SZU/SZU-war/src/java/userBean/UserBean.java
 END
+FileBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/505/trunk/SZU/SZU-war/src/java/userBean/FileBean.java
+END
 CheckStudentBean.java
 K 25
 svn:wc:ra_dav:version-url
 V 75
-/svn/!svn/ver/550/trunk/SZU/SZU-war/src/java/userBean/CheckStudentBean.java
-END
-CheckKantoriBean.java
-K 25
-svn:wc:ra_dav:version-url
-V 75
-/svn/!svn/ver/548/trunk/SZU/SZU-war/src/java/userBean/CheckKantoriBean.java
+/svn/!svn/ver/541/trunk/SZU/SZU-war/src/java/userBean/CheckStudentBean.java
 END

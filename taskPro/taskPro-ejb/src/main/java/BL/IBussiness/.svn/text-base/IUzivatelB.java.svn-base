@@ -38,8 +38,6 @@ public interface IUzivatelB {
      * Metoda upravi uzivateli na zaklade jeho loginu, jeho e-mail a heslo. Pote
      * pozada datovou vrstu o vlozeni takto upravenych udajou do DB
      */
-    
-    public String readExcel(File f);
     public void updateUdaje(String login, String mail, String heslo);
     /**
      * Metoda pozada datovou vrstu o upraveni aktualniho studenta, podle jeho
