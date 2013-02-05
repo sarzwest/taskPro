@@ -14,6 +14,9 @@ import javax.persistence.OneToMany;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 /**
  * @author papa
  * @version 1.0
@@ -28,14 +31,16 @@ import javax.persistence.Table;
 @DiscriminatorValue(value = "kantor")
 @PrimaryKeyJoinColumn(name = "id")
 @NamedQueries({
-    @NamedQuery(name = "Kantor.findByZadani", query = "SELECT k FROM Kantor k WHERE k.m_Zadani = :m_Zadani"),
+    @NamedQuery(name = "Kantor.findByZadaniId", query = "SELECT k FROM Kantor k INNER JOIN k.m_Zadani zadani WHERE zadani.id = :id"),
     @NamedQuery(name = "Kantor.all", query = "SELECT k FROM Kantor k")
 })
 public class Kantor extends Uzivatel implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @OneToMany(mappedBy = "kantor", cascade = CascadeType.ALL)
+    @LazyCollection(LazyCollectionOption.FALSE)
     private List<Zadani> m_Zadani;
+    @LazyCollection(LazyCollectionOption.FALSE)
     @ManyToMany(mappedBy = "kantors", cascade= {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
     private List<Paralelka> paralelkas;
 

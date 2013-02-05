@@ -17,6 +17,9 @@ import javax.persistence.OneToMany;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 /**
  * @author papa
  * @version 1.0
@@ -33,7 +36,9 @@ import javax.persistence.Table;
 @NamedQueries({
     //    @NamedQuery(name = "Uzivatel.findByLogin", query = "SELECT u FROM Uzivatel u WHERE u.login = :login"),
     @NamedQuery(name = "Student.all", query = "SELECT s FROM Student s"),
-    @NamedQuery(name="Student.findByKantor", query="SELECT s FROM Student s JOIN s.paralelkas p WHERE p.kantors = :kantor")
+    @NamedQuery(name="Student.findByKantorId", query="SELECT s FROM Student s INNER JOIN s.paralelkas pa WHERE pa.id = (SELECT p.id FROM Paralelka p INNER JOIN p.kantors k WHERE k.id = :id)")
+//backup    @NamedQuery(name="Student.findByKantor", query="SELECT s FROM Student s JOIN s.paralelkas p WHERE p.kantors = :kantor")
+
 })
 public class Student extends Uzivatel implements Serializable {
 
@@ -41,11 +46,12 @@ public class Student extends Uzivatel implements Serializable {
     @Column(name = "hodnoceni")
     private int hodnoceni;
     @OneToMany(mappedBy = "student", cascade= CascadeType.ALL)
+    @LazyCollection(LazyCollectionOption.FALSE)
     private List<Ukol> m_Ukol;
     @ManyToOne
     private Skupina skupina;
     @ManyToMany(mappedBy = "m_student")
-    @JoinColumn(name="paralelkas")
+//    @JoinColumn(name="paralelkas")
     private List<Paralelka> paralelkas;
 
     public Student() {

@@ -5,6 +5,7 @@
 package backingBean;
 
 import BL.IBussiness.ApplicationLocal;
+import DL.Imanager.IPredmetD;
 import DL.Imanager.IUkolD;
 import DL.Imanager.IUzivatelD;
 import DL.Imanager.IZadaniD;
@@ -19,6 +20,7 @@ import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+import javax.faces.bean.SessionScoped;
 import javax.inject.Inject;
 
 /**
@@ -26,7 +28,7 @@ import javax.inject.Inject;
  * @author Tom
  */
 @ManagedBean(name = "testBean")
-@RequestScoped
+@SessionScoped
 public class testBean implements Serializable {
 
     String something;
@@ -34,6 +36,7 @@ public class testBean implements Serializable {
     IUzivatelD uzivD;
     IUkolD ukolD;
     IZadaniD zadaD;
+    IPredmetD predD;
 
     public String getSomething() {
         return something;
@@ -56,11 +59,22 @@ public class testBean implements Serializable {
         uzivD = app.getIUzivatelD();
         ukolD = app.getIUkolD();
         zadaD = app.getIZadaniD();
+        predD = app.getIPredmetD();
     }
 
     /** Creates a new instance of testBean */
     public testBean() {
-        something = "po stisknuti tlacitka se obsah zmeni";
+    	
+//        something = "po stisknuti tlacitka se obsah zmeni";
+    }
+    
+    /**
+     * testovaci metoda
+     */
+    public String ttestBean(){
+    	predD.printParalelkaByKantor();
+    	something = "po sti";
+    	return "assigntaskKantor";
     }
 
     public void callPersist() {

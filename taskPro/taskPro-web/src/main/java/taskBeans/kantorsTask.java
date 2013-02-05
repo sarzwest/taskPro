@@ -34,6 +34,7 @@ import javax.ejb.EJB;
 import javax.enterprise.context.RequestScoped;
 import javax.faces.application.Application;
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ReferencedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
 import javax.faces.el.ValueBinding;
@@ -46,7 +47,7 @@ import org.primefaces.model.StreamedContent;
  * @author Tom
  */
 @ManagedBean (name="allKantorsTask")
-@SessionScoped
+@ReferencedBean
 public class kantorsTask {
     UkolB ukolB;
     UzivatelB userB;

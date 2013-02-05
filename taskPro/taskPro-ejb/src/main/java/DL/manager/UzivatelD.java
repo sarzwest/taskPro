@@ -33,8 +33,8 @@ public class UzivatelD extends ObjectManager implements IUzivatelD {
      */
     @Override
     public List<Kantor> getKantor(Zadani zadani) {
-        Query q = em.createNamedQuery("Kantor.findByZadani");
-        q.setParameter("m_Zadani", zadani);
+        Query q = em.createNamedQuery("Kantor.findByZadaniId");
+        q.setParameter("id", zadani.getId());
         List<Kantor> lk = (List<Kantor>) q.getResultList();
         log.log(Level.INFO, lk.toString());
         return lk;
@@ -119,12 +119,16 @@ public class UzivatelD extends ObjectManager implements IUzivatelD {
 
     @Override
     public List<Student> getAllStudentByKantor(Kantor k) {
-        Query q = em.createNamedQuery("Student.findByKantor");
-        q.setParameter("kantor", k);
+        Query q = em.createNamedQuery("Student.findByKantorId");
+        q.setParameter("id", k.getId());
         List<Student> resultList = q.getResultList();
-        for (Student student : resultList) {
+        for (int i = 0; i < resultList.size(); i++) {
+        	Student student = resultList.get(i);
+//        for (Student student : resultList) {
             List<Ukol> m_Ukol = student.getM_Ukol();
-            for (Ukol ukol : m_Ukol) {
+            for (int j = 0; j < m_Ukol.size(); j++) {
+            	Ukol ukol = m_Ukol.get(j);
+//            for (Ukol ukol : m_Ukol) {
                 ukol = (Ukol) refresh(ukol);
             }
         }

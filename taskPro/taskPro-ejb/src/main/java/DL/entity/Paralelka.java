@@ -23,6 +23,9 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 /**
  *
  * @author papa
@@ -36,7 +39,7 @@ import javax.persistence.UniqueConstraint;
 @Table(name = "paralelka", uniqueConstraints=@UniqueConstraint(columnNames={"predmet_id", "kod"}))
 @NamedQueries({
     //    @NamedQuery(name = "Uzivatel.findByLogin", query = "SELECT u FROM Uzivatel u WHERE u.login = :login"),
-    @NamedQuery(name = "Paralelka.findByKantor", query = "SELECT p FROM Paralelka p WHERE p.kantors = :kantor"),
+    @NamedQuery(name = "Paralelka.findByKantorId", query = "SELECT p FROM Paralelka p INNER JOIN p.kantors k WHERE k.id = :id "),
 })
 public class Paralelka implements Serializable {
 
@@ -52,7 +55,8 @@ public class Paralelka implements Serializable {
     private int id;
     @Column(name = "kod", nullable = false)
     private String kod;
-    @ManyToMany(cascade= CascadeType.ALL)
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @ManyToMany(cascade= CascadeType.ALL)//this
     private List<Student> m_student;
     @ManyToMany(cascade= CascadeType.ALL)
     private List<Zadani> m_zadani;

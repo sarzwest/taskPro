@@ -18,6 +18,9 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 /**
  * @author papa
  * @version 1.0
@@ -30,7 +33,7 @@ import javax.persistence.TemporalType;
 @Entity
 @Table(name = "ukol")
 @NamedQueries({
-    @NamedQuery(name="Ukol.findByKantor", query="SELECT u FROM Ukol u, Zadani z WHERE u.zadani.kantor = :kantor"),
+    @NamedQuery(name="Ukol.findByKantor", query="SELECT u FROM Ukol u WHERE u.zadani.kantor = :kantor"),
     @NamedQuery(name="Ukol.findByStudent", query="SELECT u FROM Ukol u WHERE u.student = :student"),
     @NamedQuery(name="Ukol.findByStav", query="SELECT u FROM Ukol u WHERE u.stav = :stav"),
     @NamedQuery(name="Ukol.findByStavAndStudent", query="SELECT u FROM Ukol u WHERE u.stav = :stav AND u.student = :student"),
@@ -69,6 +72,7 @@ public class Ukol implements Serializable {
     @ManyToOne
     private Skupina skupina;
     @OneToMany(mappedBy = "ukol", cascade= CascadeType.ALL, fetch= FetchType.LAZY)
+    @LazyCollection(LazyCollectionOption.FALSE)
     private List<UkolSoubor> m_ukolSoubor;
 
     /**

@@ -57,8 +57,17 @@ public class Uzivatel implements Serializable {
         return jmeno;
     }
 
-    protected int getId() {
+    public int getId() {
         return id;
+    }
+    
+
+    /**
+     * test method
+     * @param id
+     */
+    public void setId(int id){
+    	this.id = id;
     }
 
     public String getLogin() {

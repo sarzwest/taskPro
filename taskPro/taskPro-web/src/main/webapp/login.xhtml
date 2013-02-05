@@ -9,7 +9,7 @@
     </h:head>
     <h:body>
         <!--<h:form >
-            <h:commandButton action="{testBean.callPersist()}" value="aa"/>
+            <h:commandButton action="semDatHash{testBean.ttestBean()}" value="#{testBean.something}"/>
             <h:commandButton action="{testBean.createAdmin()}" value="admin"/>
         </h:form>-->
         <div class="prihlaseni">
@@ -21,10 +21,10 @@
                     </div>
                     <br/>                    
                     <label class="loginLabel" for="j_username">Přihlašovací jmeno:</label> 
-                    <p:inputText id="j_username" required="true" value="" />
+                    <p:inputText id="j_username" required="true" value="teach" />
                     <label class="loginLabel" for="j_password">Heslo:</label>                    
 
-                    <p:password id="j_password" required="true" value="" feedback="false" minLength="0" />
+                    <p:password id="j_password" required="true" value="a" feedback="false" minLength="0" />
                     <div class="buttonCenter">
 
                         <h:commandButton value="Log me in!"  type="submit"></h:commandButton>

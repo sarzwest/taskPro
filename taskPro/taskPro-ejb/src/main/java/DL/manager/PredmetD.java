@@ -70,28 +70,60 @@ public class PredmetD extends ObjectManager implements IPredmetD {
      */
     @Override
     public List<Predmet> getAllPredmet() {
-        Query q = em.createNamedQuery("Predmet.all");
+    	Query q = em.createNamedQuery("Predmet.all");
         List<Predmet> lp = q.getResultList();
-        for (Predmet predmet : lp) {
+        for (int i = 0; i < lp.size(); i++) {
+        	Predmet predmet = lp.get(i);
+//        for (Predmet predmet : lp) {
             List<Paralelka> m_paralelka = predmet.getM_paralelka();
-            for (Paralelka paralelka : m_paralelka) {
+            for (int j = 0; j < m_paralelka.size(); j++) {
+            	Paralelka paralelka = m_paralelka.get(j);
+//            for (Paralelka paralelka : m_paralelka) {
                 paralelka = (Paralelka) refresh(paralelka);
                 List<Kantor> m_kantor = paralelka.getM_kantor();
-                for (Kantor kantor : m_kantor) {
+                for (int k = 0; k < m_kantor.size(); k++) {
+                	Kantor kantor = m_kantor.get(k);
+//                for (Kantor kantor : m_kantor) {
                     kantor = (Kantor) refresh(kantor);
                 }
                 List<Skupina> m_skupina = paralelka.getM_skupina();
-                for (Skupina skupina : m_skupina) {
+                for (int k = 0; k < m_skupina.size(); k++) {
+                	Skupina skupina = m_skupina.get(k);
+//                for (Skupina skupina : m_skupina) {
                     skupina = (Skupina) refresh(skupina);
                 }
                 List<Student> m_student = paralelka.getM_student();
-                for (Student student : m_student) {
+                for (int k = 0; k < m_student.size(); k++) {
+                	Student student = m_student.get(k);
+//                for (Student student : m_student) {
                     student = (Student) refresh(student);
                 }
             }
         }
         log.log(Level.INFO, lp.toString());
         return lp;
+//        Query q = em.createNamedQuery("Predmet.all");
+//        List<Predmet> lp = q.getResultList();
+//        for (Predmet predmet : lp) {
+//            List<Paralelka> m_paralelka = predmet.getM_paralelka();
+//            for (Paralelka paralelka : m_paralelka) {
+//                paralelka = (Paralelka) refresh(paralelka);
+//                List<Kantor> m_kantor = paralelka.getM_kantor();
+//                for (Kantor kantor : m_kantor) {
+//                    kantor = (Kantor) refresh(kantor);
+//                }
+//                List<Skupina> m_skupina = paralelka.getM_skupina();
+//                for (Skupina skupina : m_skupina) {
+//                    skupina = (Skupina) refresh(skupina);
+//                }
+//                List<Student> m_student = paralelka.getM_student();
+//                for (Student student : m_student) {
+//                    student = (Student) refresh(student);
+//                }
+//            }
+//        }
+//        log.log(Level.INFO, lp.toString());
+//        return lp;
     }
 
     /**
@@ -102,4 +134,14 @@ public class PredmetD extends ObjectManager implements IPredmetD {
     public void updatePredmet(Predmet p) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
+
+	@Override
+	public void printParalelkaByKantor() {
+		Query q = em.createNamedQuery("Student.findByKantorId");
+		Kantor k = new Kantor();
+		k.setId(801);
+        q.setParameter("id", 801);
+         List l = q.getResultList();
+        System.out.println(l);
+	}
 }

@@ -30,4 +30,6 @@ public interface IPredmetD extends Serializable {
     public List<Predmet> getAllPredmet();
 
     public void updatePredmet(Predmet p);
+
+	public void printParalelkaByKantor();
 }
