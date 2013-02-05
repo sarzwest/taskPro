@@ -14,8 +14,12 @@ import DL.Imanager.IUkolD;
 import DL.Imanager.IUzivatelD;
 import DL.Imanager.IZadaniD;
 import DL.manager.UzivatelD;
+
+import javax.annotation.security.DeclareRoles;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
+
+import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
  * Fascada k pristupu do datove vrstvy, vyuziva dependency injection.
@@ -23,6 +27,8 @@ import javax.inject.Inject;
  * @author Tom
  */
 @Stateless
+@DeclareRoles({"admin", "kantor", "student"})
+@SecurityDomain("moje-domena")
 public class Application implements ApplicationLocal {
     
     @Inject

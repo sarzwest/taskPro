@@ -12,8 +12,13 @@ import DL.entity.Skupina;
 import DL.entity.Student;
 import java.util.List;
 import java.util.logging.Level;
+
+import javax.annotation.security.DeclareRoles;
+import javax.annotation.security.RolesAllowed;
 import javax.ejb.Stateless;
 import javax.persistence.Query;
+
+import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
  *
@@ -24,6 +29,8 @@ import javax.persistence.Query;
  * @author papa
  */
 @Stateless
+@DeclareRoles({"admin", "kantor", "student"})
+@SecurityDomain("moje-domena")
 public class PredmetD extends ObjectManager implements IPredmetD {
 
     /**
@@ -31,6 +38,7 @@ public class PredmetD extends ObjectManager implements IPredmetD {
      * @param p - novy predmet
      */
     @Override
+    @RolesAllowed("admin")
     public void addPredmet(Predmet p) {
         super.add(p);
     }
@@ -40,6 +48,7 @@ public class PredmetD extends ObjectManager implements IPredmetD {
      * @param p - nova paralelka
      */
     @Override
+    @RolesAllowed("admin")
     public void addParalelka(Paralelka p) {
         List<Kantor> m_kantor = p.getM_kantor();
 //        for (Kantor kantor : m_kantor) {
@@ -131,11 +140,13 @@ public class PredmetD extends ObjectManager implements IPredmetD {
      * @param p - upraveny predmet
      */
     @Override
+    @RolesAllowed({"admin","kantor"})
     public void updatePredmet(Predmet p) {
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
 	@Override
+    @RolesAllowed({"admin","kantor"})
 	public void printParalelkaByKantor() {
 		Query q = em.createNamedQuery("Student.findByKantorId");
 		Kantor k = new Kantor();

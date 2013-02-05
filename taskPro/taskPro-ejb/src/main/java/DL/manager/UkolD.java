@@ -9,8 +9,12 @@ import DL.entity.UkolSoubor;
 import DL.entity.Zadani;
 import java.io.File;
 import java.util.List;
+
+import javax.annotation.security.DeclareRoles;
 import javax.ejb.Stateless;
 import javax.persistence.Query;
+
+import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
  * @author papa
@@ -22,6 +26,8 @@ import javax.persistence.Query;
  * @author papa
  */
 @Stateless
+@DeclareRoles({"admin", "kantor", "student"})
+@SecurityDomain("moje-domena")
 public class UkolD extends ObjectManager implements IUkolD {
 
     public UkolD() {

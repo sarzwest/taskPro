@@ -8,8 +8,13 @@ import DL.entity.Uzivatel;
 import DL.entity.Zadani;
 import java.util.List;
 import java.util.logging.Level;
+
+import javax.annotation.security.DeclareRoles;
+import javax.annotation.security.RolesAllowed;
 import javax.ejb.Stateless;
 import javax.persistence.Query;
+
+import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
  * @author papa
@@ -21,6 +26,8 @@ import javax.persistence.Query;
  * @author papa
  */
 @Stateless
+@DeclareRoles({"admin", "kantor", "student"})
+@SecurityDomain("moje-domena")
 public class UzivatelD extends ObjectManager implements IUzivatelD {
 
     public UzivatelD() {
@@ -45,6 +52,7 @@ public class UzivatelD extends ObjectManager implements IUzivatelD {
      * @param u 
      */
     @Override
+    @RolesAllowed("admin")
     public void addUzivatel(Uzivatel u) {
         super.add(u);
     }
@@ -54,6 +62,7 @@ public class UzivatelD extends ObjectManager implements IUzivatelD {
      * @param u 
      */
     @Override
+    @RolesAllowed("admin")
     public void removeUzivatel(Uzivatel u) {
         remove(u);
     }

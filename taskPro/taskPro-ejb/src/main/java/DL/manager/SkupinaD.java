@@ -6,7 +6,12 @@ package DL.manager;
 
 import DL.Imanager.ISkupinaD;
 import DL.entity.Skupina;
+
+import javax.annotation.security.DeclareRoles;
+import javax.annotation.security.RolesAllowed;
 import javax.ejb.Stateless;
+
+import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
  *
@@ -17,6 +22,8 @@ import javax.ejb.Stateless;
  * @author papa
  */
 @Stateless
+@DeclareRoles({"admin", "kantor", "student"})
+@SecurityDomain("moje-domena")
 public class SkupinaD extends ObjectManager implements ISkupinaD {
 
     /**
@@ -24,6 +31,7 @@ public class SkupinaD extends ObjectManager implements ISkupinaD {
      * @param s - nova skupina
      */
     @Override
+    @RolesAllowed({"admin","kantor"})
     public void addSkupina(Skupina s) {
         super.add(s);
     }
@@ -33,6 +41,7 @@ public class SkupinaD extends ObjectManager implements ISkupinaD {
      * @param s - skupina k odstraneni
      */
     @Override
+    @RolesAllowed({"admin","kantor"})
     public void removeSkupina(Skupina s) {
         super.remove(s);
     }

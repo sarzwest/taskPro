@@ -4,8 +4,13 @@ import DL.Imanager.IZadaniD;
 import DL.entity.Kantor;
 import DL.entity.Zadani;
 import java.util.ArrayList;
+
+import javax.annotation.security.DeclareRoles;
+import javax.annotation.security.RolesAllowed;
 import javax.ejb.Stateless;
 import javax.persistence.Query;
+
+import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
  * @author papa
@@ -17,6 +22,8 @@ import javax.persistence.Query;
  * @author papa
  */
 @Stateless
+@DeclareRoles({"admin", "kantor", "student"})
+@SecurityDomain("moje-domena")
 public class ZadaniD extends ObjectManager implements IZadaniD {
 
     public ZadaniD() {
@@ -27,6 +34,7 @@ public class ZadaniD extends ObjectManager implements IZadaniD {
      * @param zadani - upravene zadani
      */
     @Override
+    @RolesAllowed({"admin","kantor"})
     public void updateZadani(Zadani zadani) {
         super.update(zadani);
     }
@@ -36,6 +44,7 @@ public class ZadaniD extends ObjectManager implements IZadaniD {
      * @param z - nove zadani
      */
     @Override
+    @RolesAllowed({"admin","kantor"})
     public void addZadani(Zadani z) {
         Kantor k = z.getKantor();
         k.addZadani(z);
