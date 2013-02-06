@@ -14,6 +14,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -32,9 +33,14 @@ import java.util.logging.Logger;
  * Singleton trida, ktera implementuje chovani IUzivatelB a zprostredkovava sluzby
  * business logiky.
  */
-public class UzivatelB implements IUzivatelB {
+public class UzivatelB implements IUzivatelB, Serializable{
     
-    private static IUzivatelB uzivatelB;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -4558194987361104646L;
+
+	private static IUzivatelB uzivatelB;
 
     private ApplicationLocal app;
     private IUzivatelD userData;

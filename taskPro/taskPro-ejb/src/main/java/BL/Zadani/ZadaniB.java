@@ -12,6 +12,7 @@ import DL.entity.Ukol;
 import DL.entity.Uzivatel;
 import DL.entity.Zadani;
 import java.io.File;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
@@ -26,9 +27,14 @@ import java.util.List;
  * Singleton trida, ktera implementuje chovani IZadaniB a zprostredkovava sluzby
  * business logiky.
  */
-public class ZadaniB implements IZadaniB {
+public class ZadaniB implements IZadaniB, Serializable {
     
-    private static IZadaniB zadaniB;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 940321506967151172L;
+
+	private static IZadaniB zadaniB;
 
     private ApplicationLocal app;
     private IZadaniD zadaniData;

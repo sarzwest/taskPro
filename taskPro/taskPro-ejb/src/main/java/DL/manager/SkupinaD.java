@@ -11,6 +11,7 @@ import javax.annotation.security.DeclareRoles;
 import javax.annotation.security.RolesAllowed;
 import javax.ejb.Stateless;
 
+import org.jboss.ejb3.annotation.Clustered;
 import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
@@ -24,9 +25,15 @@ import org.jboss.ejb3.annotation.SecurityDomain;
 @Stateless
 @DeclareRoles({"admin", "kantor", "student"})
 @SecurityDomain("moje-domena")
+@Clustered
 public class SkupinaD extends ObjectManager implements ISkupinaD {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 6733483946063673360L;
+
+	/**
      * prida novou skupinu
      * @param s - nova skupina
      */

@@ -10,6 +10,8 @@ import DL.entity.Kantor;
 import DL.entity.Student;
 import DL.entity.Ukol;
 import DL.entity.Zadani;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -24,10 +26,13 @@ import java.util.List;
  *Singleton trida, ktera implementuje chovani IUkolB a zprostredkovava sluzby
  * business logiky.
  */
-public class UkolB implements IUkolB {
-  
-    
-    private static IUkolB ukolB;
+public class UkolB implements IUkolB, Serializable {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6091088359585895542L;
+	private static IUkolB ukolB;
     private ApplicationLocal app;
     private IUkolD ukolData;
     private IZadaniD zadaniData;

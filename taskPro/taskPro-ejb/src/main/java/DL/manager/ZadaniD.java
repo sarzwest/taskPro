@@ -3,6 +3,8 @@ package DL.manager;
 import DL.Imanager.IZadaniD;
 import DL.entity.Kantor;
 import DL.entity.Zadani;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 
 import javax.annotation.security.DeclareRoles;
@@ -10,6 +12,7 @@ import javax.annotation.security.RolesAllowed;
 import javax.ejb.Stateless;
 import javax.persistence.Query;
 
+import org.jboss.ejb3.annotation.Clustered;
 import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
@@ -24,9 +27,15 @@ import org.jboss.ejb3.annotation.SecurityDomain;
 @Stateless
 @DeclareRoles({"admin", "kantor", "student"})
 @SecurityDomain("moje-domena")
-public class ZadaniD extends ObjectManager implements IZadaniD {
+@Clustered
+public class ZadaniD extends ObjectManager implements IZadaniD, Serializable {
 
-    public ZadaniD() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -643840843249227006L;
+
+	public ZadaniD() {
     }
 
     /**

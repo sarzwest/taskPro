@@ -13,6 +13,8 @@ import DL.entity.Kantor;
 import DL.entity.Paralelka;
 import DL.entity.Skupina;
 import DL.entity.Student;
+
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -20,8 +22,12 @@ import java.util.List;
  * business logiky. Je primarne zamerana na praci se skupinami.
  * @author Tom
  */
-public class SkupinaB implements ISkupinaB {
-    private static SkupinaB groupB;
+public class SkupinaB implements ISkupinaB, Serializable {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 5452121113815203596L;
+	private static SkupinaB groupB;
       private ApplicationLocal app;
     private IPredmetD predmetData;
     private IUzivatelD userData;

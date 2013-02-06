@@ -5,6 +5,8 @@
 package DL.manager;
 
 import DL.Imanager.IObjectManager;
+
+import java.io.Serializable;
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Handler;
 import java.util.logging.Level;
@@ -21,9 +23,13 @@ import javax.persistence.PersistenceContext;
  * implementace IObjectManager pro praci s databazi na nejuniverzalnejsi urovni
  * @author papa
  */
-public class ObjectManager implements IObjectManager {
+public class ObjectManager implements IObjectManager, Serializable {
 
-    @PersistenceContext(unitName = "SZU-ejbPU")
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -7765221449338036346L;
+	@PersistenceContext(unitName = "SZU-ejbPU")
     protected EntityManager em;
     protected Logger log;
 

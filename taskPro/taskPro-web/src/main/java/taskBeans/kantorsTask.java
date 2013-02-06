@@ -22,6 +22,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.Serializable;
 import java.security.Principal;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -48,7 +49,7 @@ import org.primefaces.model.StreamedContent;
  */
 @ManagedBean (name="allKantorsTask")
 @ReferencedBean
-public class kantorsTask {
+public class kantorsTask  implements Serializable{
     UkolB ukolB;
     UzivatelB userB;
       private LoginBean loginBean;

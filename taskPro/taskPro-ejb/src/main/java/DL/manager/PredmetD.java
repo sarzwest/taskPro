@@ -18,6 +18,7 @@ import javax.annotation.security.RolesAllowed;
 import javax.ejb.Stateless;
 import javax.persistence.Query;
 
+import org.jboss.ejb3.annotation.Clustered;
 import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
@@ -31,9 +32,15 @@ import org.jboss.ejb3.annotation.SecurityDomain;
 @Stateless
 @DeclareRoles({"admin", "kantor", "student"})
 @SecurityDomain("moje-domena")
+@Clustered
 public class PredmetD extends ObjectManager implements IPredmetD {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = -4639649007423308981L;
+
+	/**
      * prida predmet
      * @param p - novy predmet
      */

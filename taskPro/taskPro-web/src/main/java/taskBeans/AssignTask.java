@@ -22,6 +22,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.Serializable;
 import java.security.Principal;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -47,7 +48,7 @@ import org.primefaces.model.StreamedContent;
  */
 @ManagedBean(name = "assignTask")
 @SessionScoped
-public class AssignTask {
+public class AssignTask  implements Serializable{
     PredmetB subjectB;
     UzivatelB userB;
     Kantor loggedKantor;

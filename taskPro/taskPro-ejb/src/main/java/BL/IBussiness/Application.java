@@ -19,6 +19,7 @@ import javax.annotation.security.DeclareRoles;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
+import org.jboss.ejb3.annotation.Clustered;
 import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
@@ -29,6 +30,7 @@ import org.jboss.ejb3.annotation.SecurityDomain;
 @Stateless
 @DeclareRoles({"admin", "kantor", "student"})
 @SecurityDomain("moje-domena")
+@Clustered
 public class Application implements ApplicationLocal {
     
     @Inject

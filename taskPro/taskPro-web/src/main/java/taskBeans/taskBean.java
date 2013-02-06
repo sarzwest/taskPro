@@ -55,7 +55,7 @@ import javax.inject.Inject;
  */
 @ManagedBean(name = "taskBean")
 @SessionScoped
-public class taskBean {
+public class taskBean  implements Serializable{
     ZadaniB zadaniBus ;
 
     public Zadani getNewTask() {

@@ -23,6 +23,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.Serializable;
 import java.security.Principal;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -46,7 +47,7 @@ import org.primefaces.model.StreamedContent;
  */
 @ManagedBean(name = "submittedTaskBean")
 @SessionScoped
-public class submittedTaskBean {
+public class submittedTaskBean  implements Serializable{
 
     UkolB ukolB;
     UzivatelB userB;

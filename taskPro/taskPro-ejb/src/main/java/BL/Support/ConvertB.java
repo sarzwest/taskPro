@@ -10,6 +10,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.Serializable;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -21,9 +22,14 @@ import java.util.logging.Logger;
  * Trida podporuje chovani aplikace a slouzi jako support pro jednotlive ulohy
  * @author Tom
  */
-public class ConvertB {
+public class ConvertB implements Serializable {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 8035361408408299939L;
+
+	/**
      * Metoda prevede zadany string na datum.
      * @param datumS 
      * @return Date

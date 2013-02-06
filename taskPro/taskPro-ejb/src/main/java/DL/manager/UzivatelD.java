@@ -6,6 +6,8 @@ import DL.entity.Student;
 import DL.entity.Ukol;
 import DL.entity.Uzivatel;
 import DL.entity.Zadani;
+
+import java.io.Serializable;
 import java.util.List;
 import java.util.logging.Level;
 
@@ -14,6 +16,7 @@ import javax.annotation.security.RolesAllowed;
 import javax.ejb.Stateless;
 import javax.persistence.Query;
 
+import org.jboss.ejb3.annotation.Clustered;
 import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
@@ -28,9 +31,15 @@ import org.jboss.ejb3.annotation.SecurityDomain;
 @Stateless
 @DeclareRoles({"admin", "kantor", "student"})
 @SecurityDomain("moje-domena")
-public class UzivatelD extends ObjectManager implements IUzivatelD {
+@Clustered
+public class UzivatelD extends ObjectManager implements IUzivatelD, Serializable {
 
-    public UzivatelD() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -1686190990717915105L;
+
+	public UzivatelD() {
     }
 
     /**

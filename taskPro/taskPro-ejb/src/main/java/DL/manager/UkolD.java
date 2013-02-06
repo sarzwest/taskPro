@@ -14,6 +14,7 @@ import javax.annotation.security.DeclareRoles;
 import javax.ejb.Stateless;
 import javax.persistence.Query;
 
+import org.jboss.ejb3.annotation.Clustered;
 import org.jboss.ejb3.annotation.SecurityDomain;
 
 /**
@@ -28,9 +29,15 @@ import org.jboss.ejb3.annotation.SecurityDomain;
 @Stateless
 @DeclareRoles({"admin", "kantor", "student"})
 @SecurityDomain("moje-domena")
+@Clustered
 public class UkolD extends ObjectManager implements IUkolD {
 
-    public UkolD() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1434724726351554195L;
+
+	public UkolD() {
     }
 
     /**

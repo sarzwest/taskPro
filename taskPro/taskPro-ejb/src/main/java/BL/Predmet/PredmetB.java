@@ -12,6 +12,8 @@ import DL.entity.Kantor;
 import DL.entity.Paralelka;
 import DL.entity.Predmet;
 import DL.entity.Student;
+
+import java.io.Serializable;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -25,9 +27,14 @@ import java.util.List;
  * business logiky. Je primarne zamerana na praci s predmety
  * @author Tom
  */
-public class PredmetB implements IPredmetB{
+public class PredmetB implements IPredmetB, Serializable{
     
-    private static IPredmetB predmetB;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -1335884354721051082L;
+
+	private static IPredmetB predmetB;
     
     private ApplicationLocal app;
     private IPredmetD predmet;
